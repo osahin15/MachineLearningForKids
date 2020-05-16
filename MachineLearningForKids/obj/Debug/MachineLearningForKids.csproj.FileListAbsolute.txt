@@ -1,0 +1,16 @@
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\bin\Debug\MachineLearningForKids.exe.config
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\bin\Debug\MachineLearningForKids.exe
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\bin\Debug\MachineLearningForKids.pdb
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\bin\Debug\MetroFramework.Design.dll
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\bin\Debug\MetroFramework.dll
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.csprojAssemblyReference.cache
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.Form1.resources
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.Properties.Resources.resources
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.csproj.GenerateResource.cache
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.csproj.CoreCompileInputs.cache
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.csproj.CopyComplete
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.exe
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.pdb
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.MakeMeHappy.resources
