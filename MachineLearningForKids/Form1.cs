@@ -15,6 +15,8 @@ namespace MachineLearningForKids
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
         private MakeMeHappy formMeHappy;
+        private Titanic formTitanic;
+        private JudgeaBook formJudgeaBook;
         public Form1()
         {
             InitializeComponent();
@@ -58,6 +60,23 @@ namespace MachineLearningForKids
         {
             formMeHappy = new MakeMeHappy();
             formMeHappy.ShowDialog();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void titanicTile_Click(object sender, EventArgs e)
+        {
+           formTitanic= new Titanic();
+            formTitanic.ShowDialog();
+        }
+
+        private void judgeabookTile_Click(object sender, EventArgs e)
+        {
+            formJudgeaBook = new JudgeaBook();
+            formJudgeaBook.ShowDialog();
         }
     }
 }

@@ -22,17 +22,21 @@ namespace MachineLearningForKids
 
         private void MakeMeHappy_Load(object sender, EventArgs e)
         {
+           
             lblHappy.Text = i.ToString();
             lblSad.Text = j.ToString();
+            MessageBox.Show(
+                "Oyun için öncelikle Happy ve Sad resimleriyle TRAIN bölümünden eğitiniz. Daha sonra TEST bolumunde tahmin edilecek resimi ekleyip Learn ve Test et Butonuna basınız.",
+                "Nasıl Yapılır?", MessageBoxButtons.OK);
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
 
         }
-       private int i = 0, j = 0;
-        private string[] happy = new string[10];
-       private string[] sad = new string[10];
+         private int i = 0, j = 0;
+         private string[] happy = new string[10];
+         private string[] sad = new string[10];
         private string dosyaYolu;
         public string dosyaAdi;
         private void rsmTrainBtn_Click(object sender, EventArgs e)
@@ -40,7 +44,7 @@ namespace MachineLearningForKids
              
             
             pctureTrain.SizeMode = PictureBoxSizeMode.StretchImage;
-            OpenFileDialog dosya = new  OpenFileDialog();
+            OpenFileDialog dosya = new OpenFileDialog();
             dosya.Filter = "Resim Dosyası |*.jpg;*.nef;*.png|Tüm Dosyalar|*.*";
             dosya.ShowDialog();
             dosyaYolu = dosya.FileName;

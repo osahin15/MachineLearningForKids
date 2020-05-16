@@ -14,3 +14,5 @@ C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\M
 C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.pdb
 C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.MakeMeHappy.resources
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.Titanic.resources
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.JudgeaBook.resources

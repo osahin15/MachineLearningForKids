@@ -64,6 +64,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="JudgeaBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JudgeaBook.Designer.cs">
+      <DependentUpon>JudgeaBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="MakeMeHappy.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,8 +78,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Titanic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Titanic.Designer.cs">
+      <DependentUpon>Titanic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TitanicFolder\TitanicManager.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JudgeaBook.resx">
+      <DependentUpon>JudgeaBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MakeMeHappy.resx">
       <DependentUpon>MakeMeHappy.cs</DependentUpon>
@@ -86,7 +102,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Titanic.resx">
+      <DependentUpon>Titanic.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -100,6 +120,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\judgeabook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project-titanic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\judgeabook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\JudgeaBookPicture\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

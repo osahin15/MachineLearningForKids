@@ -54,8 +54,8 @@
             this.metroTile6 = new MetroFramework.Controls.MetroTile();
             this.metroTile5 = new MetroFramework.Controls.MetroTile();
             this.metroTile4 = new MetroFramework.Controls.MetroTile();
-            this.metroTile3 = new MetroFramework.Controls.MetroTile();
-            this.metroTile2 = new MetroFramework.Controls.MetroTile();
+            this.judgeabookTile = new MetroFramework.Controls.MetroTile();
+            this.titanicTile = new MetroFramework.Controls.MetroTile();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -81,6 +81,7 @@
             // 
             this.metroPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.metroPanel1.BackColor = System.Drawing.Color.Transparent;
             this.metroPanel1.Controls.Add(this.pictureBox1);
             this.metroPanel1.Controls.Add(this.gamesBtn);
             this.metroPanel1.Controls.Add(this.homeBtn);
@@ -91,7 +92,7 @@
             this.metroPanel1.Name = "metroPanel1";
             this.metroPanel1.Size = new System.Drawing.Size(1035, 65);
             this.metroPanel1.TabIndex = 0;
-            this.metroPanel1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroPanel1.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroPanel1.VerticalScrollbarBarColor = false;
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
@@ -99,12 +100,13 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(31, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(90, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(75, 65);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // gamesBtn
             // 
@@ -195,8 +197,8 @@
             this.gamesPanel.Controls.Add(this.metroTile6);
             this.gamesPanel.Controls.Add(this.metroTile5);
             this.gamesPanel.Controls.Add(this.metroTile4);
-            this.gamesPanel.Controls.Add(this.metroTile3);
-            this.gamesPanel.Controls.Add(this.metroTile2);
+            this.gamesPanel.Controls.Add(this.judgeabookTile);
+            this.gamesPanel.Controls.Add(this.titanicTile);
             this.gamesPanel.HorizontalScrollbarBarColor = true;
             this.gamesPanel.HorizontalScrollbarHighlightOnWheel = false;
             this.gamesPanel.HorizontalScrollbarSize = 10;
@@ -232,9 +234,11 @@
             // pictureBox9
             // 
             this.pictureBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox9.Image = global::MachineLearningForKids.Properties.Resources.project_titanic;
             this.pictureBox9.Location = new System.Drawing.Point(275, 79);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(80, 67);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 19;
             this.pictureBox9.TabStop = false;
             // 
@@ -286,9 +290,11 @@
             // pictureBox3
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox3.Image = global::MachineLearningForKids.Properties.Resources.judgeabook1;
             this.pictureBox3.Location = new System.Drawing.Point(480, 77);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(80, 67);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 13;
             this.pictureBox3.TabStop = false;
             // 
@@ -304,8 +310,10 @@
             this.makeMeHappy.Name = "makeMeHappy";
             this.makeMeHappy.Size = new System.Drawing.Size(117, 120);
             this.makeMeHappy.TabIndex = 12;
-            this.makeMeHappy.Text = "Make me Happy";
+            this.makeMeHappy.Text = "MakeHappy";
+            this.makeMeHappy.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.makeMeHappy.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.makeMeHappy.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.makeMeHappy.UseCustomBackColor = true;
             this.makeMeHappy.UseSelectable = true;
             this.makeMeHappy.Click += new System.EventHandler(this.makeMeHappy_Click);
@@ -414,31 +422,45 @@
             this.metroTile4.Text = "metroTile4";
             this.metroTile4.UseSelectable = true;
             // 
-            // metroTile3
+            // judgeabookTile
             // 
-            this.metroTile3.ActiveControl = null;
-            this.metroTile3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.metroTile3.Location = new System.Drawing.Point(465, 64);
-            this.metroTile3.MaximumSize = new System.Drawing.Size(160, 180);
-            this.metroTile3.MinimumSize = new System.Drawing.Size(117, 120);
-            this.metroTile3.Name = "metroTile3";
-            this.metroTile3.Size = new System.Drawing.Size(117, 120);
-            this.metroTile3.TabIndex = 4;
-            this.metroTile3.Text = "metroTile3";
-            this.metroTile3.UseSelectable = true;
+            this.judgeabookTile.ActiveControl = null;
+            this.judgeabookTile.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.judgeabookTile.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.judgeabookTile.Location = new System.Drawing.Point(465, 64);
+            this.judgeabookTile.MaximumSize = new System.Drawing.Size(160, 180);
+            this.judgeabookTile.MinimumSize = new System.Drawing.Size(117, 120);
+            this.judgeabookTile.Name = "judgeabookTile";
+            this.judgeabookTile.Size = new System.Drawing.Size(117, 120);
+            this.judgeabookTile.TabIndex = 4;
+            this.judgeabookTile.Text = "Judge a Book";
+            this.judgeabookTile.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.judgeabookTile.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.judgeabookTile.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.judgeabookTile.UseCustomBackColor = true;
+            this.judgeabookTile.UseSelectable = true;
+            this.judgeabookTile.Click += new System.EventHandler(this.judgeabookTile_Click);
             // 
-            // metroTile2
+            // titanicTile
             // 
-            this.metroTile2.ActiveControl = null;
-            this.metroTile2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.metroTile2.Location = new System.Drawing.Point(259, 64);
-            this.metroTile2.MaximumSize = new System.Drawing.Size(160, 180);
-            this.metroTile2.MinimumSize = new System.Drawing.Size(117, 120);
-            this.metroTile2.Name = "metroTile2";
-            this.metroTile2.Size = new System.Drawing.Size(117, 120);
-            this.metroTile2.TabIndex = 3;
-            this.metroTile2.Text = "metroTile2";
-            this.metroTile2.UseSelectable = true;
+            this.titanicTile.ActiveControl = null;
+            this.titanicTile.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.titanicTile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.titanicTile.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.titanicTile.Location = new System.Drawing.Point(259, 64);
+            this.titanicTile.MaximumSize = new System.Drawing.Size(160, 180);
+            this.titanicTile.MinimumSize = new System.Drawing.Size(117, 120);
+            this.titanicTile.Name = "titanicTile";
+            this.titanicTile.Size = new System.Drawing.Size(117, 120);
+            this.titanicTile.TabIndex = 3;
+            this.titanicTile.Text = "Titanic";
+            this.titanicTile.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.titanicTile.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.titanicTile.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.titanicTile.UseCustomBackColor = true;
+            this.titanicTile.UseCustomForeColor = true;
+            this.titanicTile.UseSelectable = true;
+            this.titanicTile.Click += new System.EventHandler(this.titanicTile_Click);
             // 
             // label5
             // 
@@ -555,8 +577,8 @@
         private MetroFramework.Controls.MetroTile metroTile6;
         private MetroFramework.Controls.MetroTile metroTile5;
         private MetroFramework.Controls.MetroTile metroTile4;
-        private MetroFramework.Controls.MetroTile metroTile3;
-        private MetroFramework.Controls.MetroTile metroTile2;
+        private MetroFramework.Controls.MetroTile judgeabookTile;
+        private MetroFramework.Controls.MetroTile titanicTile;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox9;
