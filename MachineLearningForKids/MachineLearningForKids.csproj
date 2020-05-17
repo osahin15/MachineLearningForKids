@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -64,12 +64,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="HeadlineEasy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HeadlineEasy.Designer.cs">
-      <DependentUpon>HeadlineEasy.cs</DependentUpon>
-    </Compile>
     <Compile Include="JournetToSchool.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,9 +101,6 @@
     <Compile Include="TitanicFolder\TitanicManager.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HeadlineEasy.resx">
-      <DependentUpon>HeadlineEasy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JournetToSchool.resx">
       <DependentUpon>JournetToSchool.cs</DependentUpon>
@@ -169,7 +160,6 @@
     <None Include="Resources\journeytoschool.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\newspaper.jpg" />
     <None Include="Resources\LightandFan.PNG" />
   </ItemGroup>
   <ItemGroup>
@@ -177,7 +167,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LightOn.png" />
->>>>>>> f582b14c7065f3a476135c2a75c0218acc07351c
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
