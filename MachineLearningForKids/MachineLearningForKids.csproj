@@ -169,9 +169,7 @@
     <None Include="Resources\journeytoschool.png" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <None Include="Resources\newspaper.jpg" />
-=======
     <None Include="Resources\LightandFan.PNG" />
   </ItemGroup>
   <ItemGroup>
