@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -141,32 +141,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\judgeabook.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\project-titanic.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\judgeabook.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\JudgeaBookPicture\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\journeytoschool.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LightandFan.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\FanOn.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LightOn.png" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -96,7 +96,7 @@
             // 
             // pct_LampOn
             // 
-            this.pct_LampOn.Image = global::MachineLearningForKids.Properties.Resources.LightOn;
+           
             this.pct_LampOn.Location = new System.Drawing.Point(817, 149);
             this.pct_LampOn.Name = "pct_LampOn";
             this.pct_LampOn.Size = new System.Drawing.Size(287, 217);
@@ -107,7 +107,7 @@
             // 
             // pct_FanOn
             // 
-            this.pct_FanOn.Image = global::MachineLearningForKids.Properties.Resources.FanOn;
+           
             this.pct_FanOn.Location = new System.Drawing.Point(817, 149);
             this.pct_FanOn.Name = "pct_FanOn";
             this.pct_FanOn.Size = new System.Drawing.Size(287, 217);
@@ -118,7 +118,7 @@
             // 
             // pct_LampAndFan
             // 
-            this.pct_LampAndFan.Image = global::MachineLearningForKids.Properties.Resources.LightandFan;
+          
             this.pct_LampAndFan.Location = new System.Drawing.Point(817, 149);
             this.pct_LampAndFan.Name = "pct_LampAndFan";
             this.pct_LampAndFan.Size = new System.Drawing.Size(287, 217);

@@ -18,6 +18,7 @@ namespace MachineLearningForKids
         private Titanic formTitanic;
         private JudgeaBook formJudgeaBook;
         private JournetToSchool formJournetToSchool;
+        private SmartClass frmSmartClass;
         public Form1()
         {
             InitializeComponent();
@@ -88,7 +89,7 @@ namespace MachineLearningForKids
 
         private void tile_SmartClass_Click(object sender, EventArgs e)
         {
-            SmartClass frmSmartClass = new SmartClass();
+            frmSmartClass = new SmartClass();
             frmSmartClass.ShowDialog();
         }
     }

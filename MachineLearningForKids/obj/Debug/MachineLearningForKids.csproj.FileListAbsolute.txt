@@ -37,3 +37,4 @@ C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\M
 C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.csproj.CopyComplete
 C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.exe
 C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.pdb
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.SmartClass.resources
