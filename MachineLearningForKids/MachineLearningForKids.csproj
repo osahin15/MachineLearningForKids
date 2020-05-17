@@ -85,6 +85,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartClass.Designer.cs">
+      <DependentUpon>SmartClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartClassTest.cs" />
     <Compile Include="Titanic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +121,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SmartClass.resx">
+      <DependentUpon>SmartClass.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Titanic.resx">
       <DependentUpon>Titanic.cs</DependentUpon>
     </EmbeddedResource>
@@ -148,6 +158,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\journeytoschool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LightandFan.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FanOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LightOn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
