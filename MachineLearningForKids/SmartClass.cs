@@ -107,5 +107,10 @@ namespace MachineLearningForKids
                 MessageBox.Show("Cümle Anlaşılamadı.", MessageBoxButtons.OK.ToString());
             }
         }
+
+        private void btn_Train_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Train Edildi");
+        }
     }
 }

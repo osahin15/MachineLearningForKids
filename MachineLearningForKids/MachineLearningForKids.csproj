@@ -64,6 +64,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HeadlinesEasy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeadlinesEasy.Designer.cs">
+      <DependentUpon>HeadlinesEasy.cs</DependentUpon>
+    </Compile>
     <Compile Include="JournetToSchool.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     <Compile Include="TitanicFolder\TitanicManager.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeadlinesEasy.resx">
+      <DependentUpon>HeadlinesEasy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JournetToSchool.resx">
       <DependentUpon>JournetToSchool.cs</DependentUpon>

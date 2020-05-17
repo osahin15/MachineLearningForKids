@@ -19,6 +19,7 @@ namespace MachineLearningForKids
         private JudgeaBook formJudgeaBook;
         private JournetToSchool formJournetToSchool;
         private SmartClass frmSmartClass;
+        private HeadlinesEasy frmheadlinesEasy;
         public Form1()
         {
             InitializeComponent();
@@ -91,6 +92,17 @@ namespace MachineLearningForKids
         {
             frmSmartClass = new SmartClass();
             frmSmartClass.ShowDialog();
+        }
+
+        private void tileHeadline_Click(object sender, EventArgs e)
+        {
+            frmheadlinesEasy = new HeadlinesEasy();
+            frmheadlinesEasy.ShowDialog();
+        }
+
+        private void gamesPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
