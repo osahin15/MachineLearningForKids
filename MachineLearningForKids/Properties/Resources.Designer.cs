@@ -73,6 +73,16 @@ namespace MachineLearningForKids.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FanOn {
+            get {
+                object obj = ResourceManager.GetObject("FanOn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap journeytoschool {
             get {
                 object obj = ResourceManager.GetObject("journeytoschool", resourceCulture);
@@ -103,9 +113,25 @@ namespace MachineLearningForKids.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap newspaper {
             get {
                 object obj = ResourceManager.GetObject("newspaper", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap LightandFan {
+            get {
+                object obj = ResourceManager.GetObject("LightandFan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LightOn {
+            get {
+                object obj = ResourceManager.GetObject("LightOn", resourceCulture);
+>>>>>>> f582b14c7065f3a476135c2a75c0218acc07351c
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
