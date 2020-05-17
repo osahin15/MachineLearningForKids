@@ -85,5 +85,11 @@ namespace MachineLearningForKids
             formJournetToSchool = new JournetToSchool();
             formJournetToSchool.ShowDialog();
         }
+
+        private void tile_SmartClass_Click(object sender, EventArgs e)
+        {
+            SmartClass frmSmartClass = new SmartClass();
+            frmSmartClass.ShowDialog();
+        }
     }
 }
