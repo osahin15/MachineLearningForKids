@@ -16,3 +16,4 @@ C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\bin\Debug\F
 C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.MakeMeHappy.resources
 C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.Titanic.resources
 C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.JudgeaBook.resources
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.JournetToSchool.resources

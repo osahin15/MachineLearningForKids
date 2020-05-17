@@ -17,6 +17,7 @@ namespace MachineLearningForKids
         private MakeMeHappy formMeHappy;
         private Titanic formTitanic;
         private JudgeaBook formJudgeaBook;
+        private JournetToSchool formJournetToSchool;
         public Form1()
         {
             InitializeComponent();
@@ -77,6 +78,12 @@ namespace MachineLearningForKids
         {
             formJudgeaBook = new JudgeaBook();
             formJudgeaBook.ShowDialog();
+        }
+
+        private void metroTile4_Click(object sender, EventArgs e)
+        {
+            formJournetToSchool = new JournetToSchool();
+            formJournetToSchool.ShowDialog();
         }
     }
 }

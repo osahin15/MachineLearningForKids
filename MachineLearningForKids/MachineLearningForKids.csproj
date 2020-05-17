@@ -64,6 +64,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="JournetToSchool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JournetToSchool.Designer.cs">
+      <DependentUpon>JournetToSchool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JourneySchool\Journeyschool.cs" />
     <Compile Include="JudgeaBook.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +94,9 @@
     <Compile Include="TitanicFolder\TitanicManager.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JournetToSchool.resx">
+      <DependentUpon>JournetToSchool.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JudgeaBook.resx">
       <DependentUpon>JudgeaBook.cs</DependentUpon>
@@ -135,6 +145,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\JudgeaBookPicture\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\journeytoschool.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
