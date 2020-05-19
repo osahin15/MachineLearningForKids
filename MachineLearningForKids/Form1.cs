@@ -20,6 +20,7 @@ namespace MachineLearningForKids
         private JournetToSchool formJournetToSchool;
         private SmartClass frmSmartClass;
         private HeadlinesEasy frmheadlinesEasy;
+        private ChatBots frmChatBots;
         public Form1()
         {
             InitializeComponent();
@@ -103,6 +104,12 @@ namespace MachineLearningForKids
         private void gamesPanel_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void tile_ChatBots_Click(object sender, EventArgs e)
+        {
+            frmChatBots = new ChatBots();
+            frmChatBots.ShowDialog();
         }
     }
 }

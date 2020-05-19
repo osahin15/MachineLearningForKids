@@ -51,7 +51,7 @@
             this.metroTile10 = new MetroFramework.Controls.MetroTile();
             this.metroTile9 = new MetroFramework.Controls.MetroTile();
             this.metroTile8 = new MetroFramework.Controls.MetroTile();
-            this.metroTile7 = new MetroFramework.Controls.MetroTile();
+            this.tile_ChatBots = new MetroFramework.Controls.MetroTile();
             this.tileHeadline = new MetroFramework.Controls.MetroTile();
             this.tile_SmartClass = new MetroFramework.Controls.MetroTile();
             this.metroTile4 = new MetroFramework.Controls.MetroTile();
@@ -151,7 +151,7 @@
             this.label1.Location = new System.Drawing.Point(390, 13);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(285, 28);
+            this.label1.Size = new System.Drawing.Size(348, 34);
             this.label1.TabIndex = 1;
             this.label1.Text = "Machine Learning For Kids";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -201,7 +201,7 @@
             this.gamesPanel.Controls.Add(this.metroTile10);
             this.gamesPanel.Controls.Add(this.metroTile9);
             this.gamesPanel.Controls.Add(this.metroTile8);
-            this.gamesPanel.Controls.Add(this.metroTile7);
+            this.gamesPanel.Controls.Add(this.tile_ChatBots);
             this.gamesPanel.Controls.Add(this.tileHeadline);
             this.gamesPanel.Controls.Add(this.tile_SmartClass);
             this.gamesPanel.Controls.Add(this.metroTile4);
@@ -231,7 +231,7 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.Location = new System.Drawing.Point(109, 15);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(477, 13);
+            this.label6.Size = new System.Drawing.Size(609, 17);
             this.label6.TabIndex = 22;
             this.label6.Text = "Hey Çocuk! Yapmak istediğin Machine Learning Oyunlarından birine gir ve başla! :)" +
     "";
@@ -251,10 +251,12 @@
             // pictureBox10
             // 
             this.pictureBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.Location = new System.Drawing.Point(310, 267);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 20;
             this.pictureBox10.TabStop = false;
             // 
@@ -413,19 +415,20 @@
             this.metroTile8.Text = "metroTile8";
             this.metroTile8.UseSelectable = true;
             // 
-            // metroTile7
+            // tile_ChatBots
             // 
-            this.metroTile7.ActiveControl = null;
-            this.metroTile7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.metroTile7.Location = new System.Drawing.Point(300, 256);
-            this.metroTile7.Margin = new System.Windows.Forms.Padding(2);
-            this.metroTile7.MaximumSize = new System.Drawing.Size(120, 138);
-            this.metroTile7.MinimumSize = new System.Drawing.Size(88, 92);
-            this.metroTile7.Name = "metroTile7";
-            this.metroTile7.Size = new System.Drawing.Size(109, 104);
-            this.metroTile7.TabIndex = 8;
-            this.metroTile7.Text = "metroTile7";
-            this.metroTile7.UseSelectable = true;
+            this.tile_ChatBots.ActiveControl = null;
+            this.tile_ChatBots.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tile_ChatBots.Location = new System.Drawing.Point(300, 256);
+            this.tile_ChatBots.Margin = new System.Windows.Forms.Padding(2);
+            this.tile_ChatBots.MaximumSize = new System.Drawing.Size(120, 138);
+            this.tile_ChatBots.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tile_ChatBots.Name = "tile_ChatBots";
+            this.tile_ChatBots.Size = new System.Drawing.Size(109, 104);
+            this.tile_ChatBots.TabIndex = 8;
+            this.tile_ChatBots.Text = "ChatBots";
+            this.tile_ChatBots.UseSelectable = true;
+            this.tile_ChatBots.Click += new System.EventHandler(this.tile_ChatBots_Click);
             // 
             // tileHeadline
             // 
@@ -566,7 +569,7 @@
             this.label3.Location = new System.Drawing.Point(617, 51);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 26);
+            this.label3.Size = new System.Drawing.Size(109, 31);
             this.label3.TabIndex = 5;
             this.label3.Text = "Neden?";
             // 
@@ -580,13 +583,13 @@
             this.label2.Location = new System.Drawing.Point(318, 51);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 26);
+            this.label2.Size = new System.Drawing.Size(94, 31);
             this.label2.TabIndex = 3;
             this.label2.Text = "Nedir?";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1022, 611);
             this.Controls.Add(this.homePanel);
@@ -642,7 +645,7 @@
         private MetroFramework.Controls.MetroTile metroTile10;
         private MetroFramework.Controls.MetroTile metroTile9;
         private MetroFramework.Controls.MetroTile metroTile8;
-        private MetroFramework.Controls.MetroTile metroTile7;
+        private MetroFramework.Controls.MetroTile tile_ChatBots;
         private MetroFramework.Controls.MetroTile tileHeadline;
 //=======
         private MetroFramework.Controls.MetroTile tile_SmartClass;
