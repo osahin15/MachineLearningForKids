@@ -21,6 +21,7 @@ namespace MachineLearningForKids
         private SmartClass frmSmartClass;
         private HeadlinesEasy frmheadlinesEasy;
         private ChatBots frmChatBots;
+        private Snap frmSnap;
         public Form1()
         {
             InitializeComponent();
@@ -110,6 +111,12 @@ namespace MachineLearningForKids
         {
             frmChatBots = new ChatBots();
             frmChatBots.ShowDialog();
+        }
+
+        private void tileSnap_Click(object sender, EventArgs e)
+        {
+            frmSnap = new Snap();
+            frmSnap.ShowDialog();
         }
     }
 }

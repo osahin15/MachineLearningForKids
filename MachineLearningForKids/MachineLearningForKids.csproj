@@ -105,6 +105,12 @@
       <DependentUpon>SmartClass.cs</DependentUpon>
     </Compile>
     <Compile Include="SmartClassTest.cs" />
+    <Compile Include="Snap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Snap.Designer.cs">
+      <DependentUpon>Snap.cs</DependentUpon>
+    </Compile>
     <Compile Include="Titanic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,9 @@
     </Compile>
     <EmbeddedResource Include="SmartClass.resx">
       <DependentUpon>SmartClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Snap.resx">
+      <DependentUpon>Snap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Titanic.resx">
       <DependentUpon>Titanic.cs</DependentUpon>

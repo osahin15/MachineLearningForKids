@@ -41,3 +41,4 @@ C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\M
 C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.HeadlinesEasy.resources
 C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.ChatBots.resources
 C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.HeadlinesEasy.resources
+C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.Snap.resources

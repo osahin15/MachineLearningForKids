@@ -50,7 +50,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.metroTile10 = new MetroFramework.Controls.MetroTile();
             this.metroTile9 = new MetroFramework.Controls.MetroTile();
-            this.metroTile8 = new MetroFramework.Controls.MetroTile();
+            this.tileSnap = new MetroFramework.Controls.MetroTile();
             this.tile_ChatBots = new MetroFramework.Controls.MetroTile();
             this.tileHeadline = new MetroFramework.Controls.MetroTile();
             this.tile_SmartClass = new MetroFramework.Controls.MetroTile();
@@ -200,7 +200,7 @@
             this.gamesPanel.Controls.Add(this.makeMeHappy);
             this.gamesPanel.Controls.Add(this.metroTile10);
             this.gamesPanel.Controls.Add(this.metroTile9);
-            this.gamesPanel.Controls.Add(this.metroTile8);
+            this.gamesPanel.Controls.Add(this.tileSnap);
             this.gamesPanel.Controls.Add(this.tile_ChatBots);
             this.gamesPanel.Controls.Add(this.tileHeadline);
             this.gamesPanel.Controls.Add(this.tile_SmartClass);
@@ -319,10 +319,12 @@
             // pictureBox4
             // 
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(465, 266);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 14;
             this.pictureBox4.TabStop = false;
             // 
@@ -401,19 +403,20 @@
             this.metroTile9.Text = "metroTile9";
             this.metroTile9.UseSelectable = true;
             // 
-            // metroTile8
+            // tileSnap
             // 
-            this.metroTile8.ActiveControl = null;
-            this.metroTile8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.metroTile8.Location = new System.Drawing.Point(455, 256);
-            this.metroTile8.Margin = new System.Windows.Forms.Padding(2);
-            this.metroTile8.MaximumSize = new System.Drawing.Size(120, 138);
-            this.metroTile8.MinimumSize = new System.Drawing.Size(88, 92);
-            this.metroTile8.Name = "metroTile8";
-            this.metroTile8.Size = new System.Drawing.Size(109, 104);
-            this.metroTile8.TabIndex = 9;
-            this.metroTile8.Text = "metroTile8";
-            this.metroTile8.UseSelectable = true;
+            this.tileSnap.ActiveControl = null;
+            this.tileSnap.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tileSnap.Location = new System.Drawing.Point(455, 256);
+            this.tileSnap.Margin = new System.Windows.Forms.Padding(2);
+            this.tileSnap.MaximumSize = new System.Drawing.Size(120, 138);
+            this.tileSnap.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tileSnap.Name = "tileSnap";
+            this.tileSnap.Size = new System.Drawing.Size(109, 104);
+            this.tileSnap.TabIndex = 9;
+            this.tileSnap.Text = "metroTile8";
+            this.tileSnap.UseSelectable = true;
+            this.tileSnap.Click += new System.EventHandler(this.tileSnap_Click);
             // 
             // tile_ChatBots
             // 
@@ -644,7 +647,7 @@
         private MetroFramework.Controls.MetroTile makeMeHappy;
         private MetroFramework.Controls.MetroTile metroTile10;
         private MetroFramework.Controls.MetroTile metroTile9;
-        private MetroFramework.Controls.MetroTile metroTile8;
+        private MetroFramework.Controls.MetroTile tileSnap;
         private MetroFramework.Controls.MetroTile tile_ChatBots;
         private MetroFramework.Controls.MetroTile tileHeadline;
 //=======
