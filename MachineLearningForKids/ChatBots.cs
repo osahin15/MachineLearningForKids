@@ -213,9 +213,41 @@ namespace MachineLearningForKids
 
         private void btn_TrainBack_Click(object sender, EventArgs e)
         {
-            pnl_Train.Visible = false;
-            pnl_Giris.Visible = true;
-            pnl_Test.Visible = false;
+            if(flw_Food.Controls.Count<6)
+            {
+                MessageBox.Show("Lütfen Yeterli Öğrenme İçin Gerekli Alanlara En Az 6 Tane Soru Giriniz.",
+                    "Food Alanı Eksik", MessageBoxButtons.OK);
+            }
+
+            else if (flw_Countries.Controls.Count < 6)
+            {
+                MessageBox.Show("Lütfen Yeterli Öğrenme İçin Gerekli Alanlara En Az 6 Tane Soru Giriniz.",
+                    "Countries Alanı Eksik", MessageBoxButtons.OK);
+            }
+
+            else if (flw_LifeSpan.Controls.Count < 6)
+            {
+                MessageBox.Show("Lütfen Yeterli Öğrenme İçin Gerekli Alanlara En Az 6 Tane Soru Giriniz.",
+                    "LifeSpan Alanı Eksik", MessageBoxButtons.OK);
+            }
+
+            else if (flw_Species.Controls.Count < 6)
+            {
+                MessageBox.Show("Lütfen Yeterli Öğrenme İçin Gerekli Alanlara En Az 6 Tane Soru Giriniz.",
+                    "Species Alanı Eksik", MessageBoxButtons.OK);
+            }
+
+            else if (flw_Size.Controls.Count < 6)
+            {
+                MessageBox.Show("Lütfen Yeterli Öğrenme İçin Gerekli Alanlara En Az 6 Tane Soru Giriniz.",
+                    "Size Alanı Eksik", MessageBoxButtons.OK);
+            }
+            else
+            {
+                pnl_Train.Visible = false;
+                pnl_Giris.Visible = true;
+                pnl_Test.Visible = false;
+            }
         }
 
         private void btn_TestMenu_Click(object sender, EventArgs e)
