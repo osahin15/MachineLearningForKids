@@ -17,6 +17,7 @@ namespace MachineLearningForKids
         public string dosyaYolu;
         public string dosyaAdi;
         public string dosyaYoluTest;
+        public string dosyaAdiTest;
 
         public Snap()
         {
@@ -173,29 +174,30 @@ namespace MachineLearningForKids
         {
             Dosya();
             dosyaYoluTest = dosyaYolu;
+            dosyaAdiTest = dosyaAdi;
             pctTest.ImageLocation = dosyaYoluTest;
         }
 
         private void btnTest_Click(object sender, EventArgs e)
         {
-            if(dosyaAdi=="Kupa" || dosyaAdi=="kupa")
+            if(dosyaAdiTest=="Kupa" || dosyaAdiTest=="kupa")
             {
                 MessageBox.Show("Seçtiğiniz Kart Kupa !",
                     "Tahmin",MessageBoxButtons.OK);
             }
-            else if(dosyaAdi=="Karo" || dosyaAdi=="karo")
+            else if(dosyaAdiTest=="Karo" || dosyaAdiTest=="karo")
             {
                 MessageBox.Show("Seçtiğiniz Kart Karo",
                     "Tahmin", MessageBoxButtons.OK);
             }
 
-            else if (dosyaAdi == "Maca" || dosyaAdi == "maca")
+            else if (dosyaAdiTest == "Maca" || dosyaAdiTest == "maca")
             {
                 MessageBox.Show("Seçtiğiniz Kart Maça",
                     "Tahmin", MessageBoxButtons.OK);
             }
 
-            else if (dosyaAdi == "Sinek" || dosyaAdi == "sinek")
+            else if (dosyaAdiTest == "Sinek" || dosyaAdiTest == "sinek")
             {
                 MessageBox.Show("Seçtiğiniz Kart Sinek",
                     "Tahmin", MessageBoxButtons.OK);
