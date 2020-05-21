@@ -49,7 +49,7 @@
             this.makeMeHappy = new MetroFramework.Controls.MetroTile();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.metroTile10 = new MetroFramework.Controls.MetroTile();
-            this.metroTile9 = new MetroFramework.Controls.MetroTile();
+            this.tileChameleon = new MetroFramework.Controls.MetroTile();
             this.tileSnap = new MetroFramework.Controls.MetroTile();
             this.tile_ChatBots = new MetroFramework.Controls.MetroTile();
             this.tileHeadline = new MetroFramework.Controls.MetroTile();
@@ -199,7 +199,7 @@
             this.gamesPanel.Controls.Add(this.pictureBox3);
             this.gamesPanel.Controls.Add(this.makeMeHappy);
             this.gamesPanel.Controls.Add(this.metroTile10);
-            this.gamesPanel.Controls.Add(this.metroTile9);
+            this.gamesPanel.Controls.Add(this.tileChameleon);
             this.gamesPanel.Controls.Add(this.tileSnap);
             this.gamesPanel.Controls.Add(this.tile_ChatBots);
             this.gamesPanel.Controls.Add(this.tileHeadline);
@@ -275,10 +275,12 @@
             // pictureBox8
             // 
             this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(612, 266);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 18;
             this.pictureBox8.TabStop = false;
             // 
@@ -389,19 +391,20 @@
             this.metroTile10.Text = "metroTile10";
             this.metroTile10.UseSelectable = true;
             // 
-            // metroTile9
+            // tileChameleon
             // 
-            this.metroTile9.ActiveControl = null;
-            this.metroTile9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.metroTile9.Location = new System.Drawing.Point(602, 256);
-            this.metroTile9.Margin = new System.Windows.Forms.Padding(2);
-            this.metroTile9.MaximumSize = new System.Drawing.Size(120, 138);
-            this.metroTile9.MinimumSize = new System.Drawing.Size(88, 92);
-            this.metroTile9.Name = "metroTile9";
-            this.metroTile9.Size = new System.Drawing.Size(109, 104);
-            this.metroTile9.TabIndex = 10;
-            this.metroTile9.Text = "metroTile9";
-            this.metroTile9.UseSelectable = true;
+            this.tileChameleon.ActiveControl = null;
+            this.tileChameleon.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tileChameleon.Location = new System.Drawing.Point(602, 256);
+            this.tileChameleon.Margin = new System.Windows.Forms.Padding(2);
+            this.tileChameleon.MaximumSize = new System.Drawing.Size(120, 138);
+            this.tileChameleon.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tileChameleon.Name = "tileChameleon";
+            this.tileChameleon.Size = new System.Drawing.Size(109, 104);
+            this.tileChameleon.TabIndex = 10;
+            this.tileChameleon.Text = "Chameleon";
+            this.tileChameleon.UseSelectable = true;
+            this.tileChameleon.Click += new System.EventHandler(this.tileChameleon_Click);
             // 
             // tileSnap
             // 
@@ -414,7 +417,7 @@
             this.tileSnap.Name = "tileSnap";
             this.tileSnap.Size = new System.Drawing.Size(109, 104);
             this.tileSnap.TabIndex = 9;
-            this.tileSnap.Text = "metroTile8";
+            this.tileSnap.Text = "Snap";
             this.tileSnap.UseSelectable = true;
             this.tileSnap.Click += new System.EventHandler(this.tileSnap_Click);
             // 
@@ -646,7 +649,7 @@
         private MetroFramework.Controls.MetroPanel gamesPanel;
         private MetroFramework.Controls.MetroTile makeMeHappy;
         private MetroFramework.Controls.MetroTile metroTile10;
-        private MetroFramework.Controls.MetroTile metroTile9;
+        private MetroFramework.Controls.MetroTile tileChameleon;
         private MetroFramework.Controls.MetroTile tileSnap;
         private MetroFramework.Controls.MetroTile tile_ChatBots;
         private MetroFramework.Controls.MetroTile tileHeadline;

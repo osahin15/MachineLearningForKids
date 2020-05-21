@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chameleon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chameleon.Designer.cs">
+      <DependentUpon>Chameleon.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChatBots.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,9 @@
       <DependentUpon>Titanic.cs</DependentUpon>
     </Compile>
     <Compile Include="TitanicFolder\TitanicManager.cs" />
+    <EmbeddedResource Include="Chameleon.resx">
+      <DependentUpon>Chameleon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChatBots.resx">
       <DependentUpon>ChatBots.cs</DependentUpon>
     </EmbeddedResource>

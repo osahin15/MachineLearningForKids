@@ -22,6 +22,7 @@ namespace MachineLearningForKids
         private HeadlinesEasy frmheadlinesEasy;
         private ChatBots frmChatBots;
         private Snap frmSnap;
+        private Chameleon frmChameleon;
         public Form1()
         {
             InitializeComponent();
@@ -117,6 +118,12 @@ namespace MachineLearningForKids
         {
             frmSnap = new Snap();
             frmSnap.ShowDialog();
+        }
+
+        private void tileChameleon_Click(object sender, EventArgs e)
+        {
+            frmChameleon = new Chameleon();
+            frmChameleon.ShowDialog();
         }
     }
 }
