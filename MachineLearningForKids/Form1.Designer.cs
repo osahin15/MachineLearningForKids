@@ -48,7 +48,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.makeMeHappy = new MetroFramework.Controls.MetroTile();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.metroTile10 = new MetroFramework.Controls.MetroTile();
+            this.tileTwitter = new MetroFramework.Controls.MetroTile();
             this.tileChameleon = new MetroFramework.Controls.MetroTile();
             this.tileSnap = new MetroFramework.Controls.MetroTile();
             this.tile_ChatBots = new MetroFramework.Controls.MetroTile();
@@ -198,7 +198,7 @@
             this.gamesPanel.Controls.Add(this.pictureBox4);
             this.gamesPanel.Controls.Add(this.pictureBox3);
             this.gamesPanel.Controls.Add(this.makeMeHappy);
-            this.gamesPanel.Controls.Add(this.metroTile10);
+            this.gamesPanel.Controls.Add(this.tileTwitter);
             this.gamesPanel.Controls.Add(this.tileChameleon);
             this.gamesPanel.Controls.Add(this.tileSnap);
             this.gamesPanel.Controls.Add(this.tile_ChatBots);
@@ -287,10 +287,12 @@
             // pictureBox7
             // 
             this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(752, 267);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 17;
             this.pictureBox7.TabStop = false;
             // 
@@ -377,19 +379,20 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // metroTile10
+            // tileTwitter
             // 
-            this.metroTile10.ActiveControl = null;
-            this.metroTile10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.metroTile10.Location = new System.Drawing.Point(742, 256);
-            this.metroTile10.Margin = new System.Windows.Forms.Padding(2);
-            this.metroTile10.MaximumSize = new System.Drawing.Size(120, 138);
-            this.metroTile10.MinimumSize = new System.Drawing.Size(88, 92);
-            this.metroTile10.Name = "metroTile10";
-            this.metroTile10.Size = new System.Drawing.Size(109, 104);
-            this.metroTile10.TabIndex = 11;
-            this.metroTile10.Text = "metroTile10";
-            this.metroTile10.UseSelectable = true;
+            this.tileTwitter.ActiveControl = null;
+            this.tileTwitter.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tileTwitter.Location = new System.Drawing.Point(742, 256);
+            this.tileTwitter.Margin = new System.Windows.Forms.Padding(2);
+            this.tileTwitter.MaximumSize = new System.Drawing.Size(120, 138);
+            this.tileTwitter.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tileTwitter.Name = "tileTwitter";
+            this.tileTwitter.Size = new System.Drawing.Size(109, 104);
+            this.tileTwitter.TabIndex = 11;
+            this.tileTwitter.Text = "WhatDoesTwitterThinks";
+            this.tileTwitter.UseSelectable = true;
+            this.tileTwitter.Click += new System.EventHandler(this.tileTwitter_Click);
             // 
             // tileChameleon
             // 
@@ -648,7 +651,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroFramework.Controls.MetroPanel gamesPanel;
         private MetroFramework.Controls.MetroTile makeMeHappy;
-        private MetroFramework.Controls.MetroTile metroTile10;
+        private MetroFramework.Controls.MetroTile tileTwitter;
         private MetroFramework.Controls.MetroTile tileChameleon;
         private MetroFramework.Controls.MetroTile tileSnap;
         private MetroFramework.Controls.MetroTile tile_ChatBots;

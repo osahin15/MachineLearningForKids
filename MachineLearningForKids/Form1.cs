@@ -23,6 +23,7 @@ namespace MachineLearningForKids
         private ChatBots frmChatBots;
         private Snap frmSnap;
         private Chameleon frmChameleon;
+        private WhatDoesTwitterThinks frmTwitter;
         public Form1()
         {
             InitializeComponent();
@@ -124,6 +125,12 @@ namespace MachineLearningForKids
         {
             frmChameleon = new Chameleon();
             frmChameleon.ShowDialog();
+        }
+
+        private void tileTwitter_Click(object sender, EventArgs e)
+        {
+            frmTwitter = new WhatDoesTwitterThinks();
+            frmTwitter.ShowDialog();
         }
     }
 }

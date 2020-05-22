@@ -43,3 +43,4 @@ C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\M
 C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.HeadlinesEasy.resources
 C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.Snap.resources
 C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.Chameleon.resources
+C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.WhatDoesTwitterThinks.resources
