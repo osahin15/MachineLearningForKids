@@ -63,6 +63,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txt_Food = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pnl_Train.SuspendLayout();
             this.pnl_Giris.SuspendLayout();
             this.pnl_Test.SuspendLayout();
@@ -86,9 +87,9 @@
             this.pnl_Train.Controls.Add(this.flw_LifeSpan);
             this.pnl_Train.Controls.Add(this.flw_Countries);
             this.pnl_Train.Controls.Add(this.flw_Food);
-            this.pnl_Train.Location = new System.Drawing.Point(20, 60);
+            this.pnl_Train.Location = new System.Drawing.Point(1, 77);
             this.pnl_Train.Name = "pnl_Train";
-            this.pnl_Train.Size = new System.Drawing.Size(1036, 497);
+            this.pnl_Train.Size = new System.Drawing.Size(1210, 562);
             this.pnl_Train.TabIndex = 0;
             this.pnl_Train.Visible = false;
             // 
@@ -96,7 +97,7 @@
             // 
             this.btn_TrainBack.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_TrainBack.Image = ((System.Drawing.Image)(resources.GetObject("btn_TrainBack.Image")));
-            this.btn_TrainBack.Location = new System.Drawing.Point(34, 27);
+            this.btn_TrainBack.Location = new System.Drawing.Point(121, 60);
             this.btn_TrainBack.Name = "btn_TrainBack";
             this.btn_TrainBack.Size = new System.Drawing.Size(127, 68);
             this.btn_TrainBack.TabIndex = 9;
@@ -106,7 +107,7 @@
             // txt_Train
             // 
             this.txt_Train.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Train.Location = new System.Drawing.Point(336, 43);
+            this.txt_Train.Location = new System.Drawing.Point(423, 76);
             this.txt_Train.Name = "txt_Train";
             this.txt_Train.Size = new System.Drawing.Size(341, 22);
             this.txt_Train.TabIndex = 8;
@@ -115,7 +116,7 @@
             // 
             this.btn_Add.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Add.BackColor = System.Drawing.Color.Azure;
-            this.btn_Add.Location = new System.Drawing.Point(683, 32);
+            this.btn_Add.Location = new System.Drawing.Point(770, 65);
             this.btn_Add.Name = "btn_Add";
             this.btn_Add.Size = new System.Drawing.Size(118, 43);
             this.btn_Add.TabIndex = 7;
@@ -127,7 +128,7 @@
             // 
             this.rdo_Size.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rdo_Size.AutoSize = true;
-            this.rdo_Size.Location = new System.Drawing.Point(710, 287);
+            this.rdo_Size.Location = new System.Drawing.Point(797, 320);
             this.rdo_Size.Name = "rdo_Size";
             this.rdo_Size.Size = new System.Drawing.Size(56, 21);
             this.rdo_Size.TabIndex = 6;
@@ -139,7 +140,7 @@
             // 
             this.rdo_Species.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rdo_Species.AutoSize = true;
-            this.rdo_Species.Location = new System.Drawing.Point(224, 287);
+            this.rdo_Species.Location = new System.Drawing.Point(311, 320);
             this.rdo_Species.Name = "rdo_Species";
             this.rdo_Species.Size = new System.Drawing.Size(79, 21);
             this.rdo_Species.TabIndex = 5;
@@ -151,7 +152,7 @@
             // 
             this.rdo_LifeSpan.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rdo_LifeSpan.AutoSize = true;
-            this.rdo_LifeSpan.Location = new System.Drawing.Point(803, 112);
+            this.rdo_LifeSpan.Location = new System.Drawing.Point(890, 145);
             this.rdo_LifeSpan.Name = "rdo_LifeSpan";
             this.rdo_LifeSpan.Size = new System.Drawing.Size(83, 21);
             this.rdo_LifeSpan.TabIndex = 4;
@@ -163,7 +164,7 @@
             // 
             this.rdo_Countries.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rdo_Countries.AutoSize = true;
-            this.rdo_Countries.Location = new System.Drawing.Point(472, 112);
+            this.rdo_Countries.Location = new System.Drawing.Point(559, 145);
             this.rdo_Countries.Name = "rdo_Countries";
             this.rdo_Countries.Size = new System.Drawing.Size(89, 21);
             this.rdo_Countries.TabIndex = 3;
@@ -175,7 +176,7 @@
             // 
             this.rdo_Food.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rdo_Food.AutoSize = true;
-            this.rdo_Food.Location = new System.Drawing.Point(164, 112);
+            this.rdo_Food.Location = new System.Drawing.Point(251, 145);
             this.rdo_Food.Name = "rdo_Food";
             this.rdo_Food.Size = new System.Drawing.Size(61, 21);
             this.rdo_Food.TabIndex = 2;
@@ -188,7 +189,7 @@
             this.flw_Size.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.flw_Size.AutoScroll = true;
             this.flw_Size.BackColor = System.Drawing.Color.LightCyan;
-            this.flw_Size.Location = new System.Drawing.Point(543, 314);
+            this.flw_Size.Location = new System.Drawing.Point(630, 347);
             this.flw_Size.Name = "flw_Size";
             this.flw_Size.Size = new System.Drawing.Size(456, 169);
             this.flw_Size.TabIndex = 1;
@@ -198,7 +199,7 @@
             this.flw_Species.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.flw_Species.AutoScroll = true;
             this.flw_Species.BackColor = System.Drawing.Color.LightCyan;
-            this.flw_Species.Location = new System.Drawing.Point(53, 314);
+            this.flw_Species.Location = new System.Drawing.Point(140, 347);
             this.flw_Species.Name = "flw_Species";
             this.flw_Species.Size = new System.Drawing.Size(457, 169);
             this.flw_Species.TabIndex = 1;
@@ -208,7 +209,7 @@
             this.flw_LifeSpan.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.flw_LifeSpan.AutoScroll = true;
             this.flw_LifeSpan.BackColor = System.Drawing.Color.LightCyan;
-            this.flw_LifeSpan.Location = new System.Drawing.Point(695, 139);
+            this.flw_LifeSpan.Location = new System.Drawing.Point(782, 172);
             this.flw_LifeSpan.Name = "flw_LifeSpan";
             this.flw_LifeSpan.Size = new System.Drawing.Size(304, 131);
             this.flw_LifeSpan.TabIndex = 1;
@@ -218,7 +219,7 @@
             this.flw_Countries.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.flw_Countries.AutoScroll = true;
             this.flw_Countries.BackColor = System.Drawing.Color.LightCyan;
-            this.flw_Countries.Location = new System.Drawing.Point(360, 139);
+            this.flw_Countries.Location = new System.Drawing.Point(447, 172);
             this.flw_Countries.Name = "flw_Countries";
             this.flw_Countries.Size = new System.Drawing.Size(308, 131);
             this.flw_Countries.TabIndex = 1;
@@ -228,7 +229,7 @@
             this.flw_Food.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.flw_Food.AutoScroll = true;
             this.flw_Food.BackColor = System.Drawing.Color.LightCyan;
-            this.flw_Food.Location = new System.Drawing.Point(53, 139);
+            this.flw_Food.Location = new System.Drawing.Point(140, 172);
             this.flw_Food.Name = "flw_Food";
             this.flw_Food.Size = new System.Drawing.Size(287, 131);
             this.flw_Food.TabIndex = 0;
@@ -241,15 +242,15 @@
             this.pnl_Giris.Controls.Add(this.btn_TestMenu);
             this.pnl_Giris.Controls.Add(this.btn_MenuMake);
             this.pnl_Giris.Controls.Add(this.btn_Train);
-            this.pnl_Giris.Location = new System.Drawing.Point(32, 32);
+            this.pnl_Giris.Location = new System.Drawing.Point(1, 93);
             this.pnl_Giris.Name = "pnl_Giris";
-            this.pnl_Giris.Size = new System.Drawing.Size(1033, 465);
+            this.pnl_Giris.Size = new System.Drawing.Size(1210, 530);
             this.pnl_Giris.TabIndex = 1;
             // 
             // Learn_bar
             // 
             this.Learn_bar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Learn_bar.Location = new System.Drawing.Point(436, 280);
+            this.Learn_bar.Location = new System.Drawing.Point(550, 303);
             this.Learn_bar.Maximum = 1000000;
             this.Learn_bar.Name = "Learn_bar";
             this.Learn_bar.Size = new System.Drawing.Size(125, 23);
@@ -260,8 +261,9 @@
             // 
             this.btn_TestMenu.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_TestMenu.BackColor = System.Drawing.Color.Azure;
+            this.btn_TestMenu.Enabled = false;
             this.btn_TestMenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_TestMenu.Location = new System.Drawing.Point(436, 184);
+            this.btn_TestMenu.Location = new System.Drawing.Point(550, 213);
             this.btn_TestMenu.Name = "btn_TestMenu";
             this.btn_TestMenu.Size = new System.Drawing.Size(125, 70);
             this.btn_TestMenu.TabIndex = 3;
@@ -271,10 +273,11 @@
             // 
             // btn_MenuMake
             // 
-            this.btn_MenuMake.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btn_MenuMake.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_MenuMake.BackColor = System.Drawing.Color.Azure;
+            this.btn_MenuMake.Enabled = false;
             this.btn_MenuMake.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_MenuMake.Location = new System.Drawing.Point(633, 184);
+            this.btn_MenuMake.Location = new System.Drawing.Point(714, 213);
             this.btn_MenuMake.Name = "btn_MenuMake";
             this.btn_MenuMake.Size = new System.Drawing.Size(125, 70);
             this.btn_MenuMake.TabIndex = 2;
@@ -287,7 +290,7 @@
             this.btn_Train.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Train.BackColor = System.Drawing.Color.Azure;
             this.btn_Train.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_Train.Location = new System.Drawing.Point(239, 184);
+            this.btn_Train.Location = new System.Drawing.Point(384, 213);
             this.btn_Train.Name = "btn_Train";
             this.btn_Train.Size = new System.Drawing.Size(125, 70);
             this.btn_Train.TabIndex = 0;
@@ -313,9 +316,9 @@
             this.pnl_Test.Controls.Add(this.label2);
             this.pnl_Test.Controls.Add(this.txt_Food);
             this.pnl_Test.Controls.Add(this.label1);
-            this.pnl_Test.Location = new System.Drawing.Point(20, 60);
+            this.pnl_Test.Location = new System.Drawing.Point(1, 77);
             this.pnl_Test.Name = "pnl_Test";
-            this.pnl_Test.Size = new System.Drawing.Size(1036, 494);
+            this.pnl_Test.Size = new System.Drawing.Size(1210, 562);
             this.pnl_Test.TabIndex = 2;
             this.pnl_Test.Visible = false;
             // 
@@ -323,7 +326,7 @@
             // 
             this.btn_Test.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Test.BackColor = System.Drawing.Color.LightCyan;
-            this.btn_Test.Location = new System.Drawing.Point(648, 338);
+            this.btn_Test.Location = new System.Drawing.Point(735, 372);
             this.btn_Test.Name = "btn_Test";
             this.btn_Test.Size = new System.Drawing.Size(331, 66);
             this.btn_Test.TabIndex = 13;
@@ -334,7 +337,7 @@
             // txt_Test
             // 
             this.txt_Test.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Test.Location = new System.Drawing.Point(648, 275);
+            this.txt_Test.Location = new System.Drawing.Point(735, 309);
             this.txt_Test.Name = "txt_Test";
             this.txt_Test.Size = new System.Drawing.Size(331, 22);
             this.txt_Test.TabIndex = 12;
@@ -343,7 +346,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(648, 20);
+            this.pictureBox1.Location = new System.Drawing.Point(735, 54);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(331, 249);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -354,7 +357,7 @@
             // 
             this.btn_Make.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Make.BackColor = System.Drawing.Color.LightCyan;
-            this.btn_Make.Location = new System.Drawing.Point(12, 338);
+            this.btn_Make.Location = new System.Drawing.Point(99, 372);
             this.btn_Make.Name = "btn_Make";
             this.btn_Make.Size = new System.Drawing.Size(549, 66);
             this.btn_Make.TabIndex = 10;
@@ -365,7 +368,7 @@
             // txt_Size
             // 
             this.txt_Size.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Size.Location = new System.Drawing.Point(12, 272);
+            this.txt_Size.Location = new System.Drawing.Point(99, 306);
             this.txt_Size.Name = "txt_Size";
             this.txt_Size.Size = new System.Drawing.Size(548, 22);
             this.txt_Size.TabIndex = 9;
@@ -374,7 +377,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(31, 252);
+            this.label5.Location = new System.Drawing.Point(118, 286);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 17);
             this.label5.TabIndex = 8;
@@ -383,7 +386,7 @@
             // txt_Species
             // 
             this.txt_Species.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Species.Location = new System.Drawing.Point(12, 215);
+            this.txt_Species.Location = new System.Drawing.Point(99, 249);
             this.txt_Species.Name = "txt_Species";
             this.txt_Species.Size = new System.Drawing.Size(548, 22);
             this.txt_Species.TabIndex = 7;
@@ -392,7 +395,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(31, 195);
+            this.label4.Location = new System.Drawing.Point(118, 229);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 17);
             this.label4.TabIndex = 6;
@@ -401,7 +404,7 @@
             // txt_LifeSpan
             // 
             this.txt_LifeSpan.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_LifeSpan.Location = new System.Drawing.Point(12, 160);
+            this.txt_LifeSpan.Location = new System.Drawing.Point(99, 194);
             this.txt_LifeSpan.Name = "txt_LifeSpan";
             this.txt_LifeSpan.Size = new System.Drawing.Size(548, 22);
             this.txt_LifeSpan.TabIndex = 5;
@@ -410,7 +413,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(31, 140);
+            this.label3.Location = new System.Drawing.Point(118, 174);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 17);
             this.label3.TabIndex = 4;
@@ -419,7 +422,7 @@
             // txt_Countries
             // 
             this.txt_Countries.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Countries.Location = new System.Drawing.Point(12, 105);
+            this.txt_Countries.Location = new System.Drawing.Point(99, 139);
             this.txt_Countries.Name = "txt_Countries";
             this.txt_Countries.Size = new System.Drawing.Size(548, 22);
             this.txt_Countries.TabIndex = 3;
@@ -428,7 +431,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 85);
+            this.label2.Location = new System.Drawing.Point(118, 119);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 17);
             this.label2.TabIndex = 2;
@@ -437,7 +440,7 @@
             // txt_Food
             // 
             this.txt_Food.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Food.Location = new System.Drawing.Point(12, 52);
+            this.txt_Food.Location = new System.Drawing.Point(99, 86);
             this.txt_Food.Name = "txt_Food";
             this.txt_Food.Size = new System.Drawing.Size(548, 22);
             this.txt_Food.TabIndex = 1;
@@ -446,18 +449,29 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 32);
+            this.label1.Location = new System.Drawing.Point(118, 66);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Food:";
             // 
+            // panel1
+            // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Location = new System.Drawing.Point(1, 63);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1210, 14);
+            this.panel1.TabIndex = 3;
+            // 
             // ChatBots
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1076, 577);
+            this.ClientSize = new System.Drawing.Size(1211, 653);
             this.Controls.Add(this.pnl_Giris);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnl_Test);
             this.Controls.Add(this.pnl_Train);
             this.Name = "ChatBots";
@@ -509,5 +523,6 @@
         private System.Windows.Forms.Button btn_TrainBack;
         private System.Windows.Forms.Button btn_TestMenu;
         private System.Windows.Forms.ProgressBar Learn_bar;
+        private System.Windows.Forms.Panel panel1;
     }
 }

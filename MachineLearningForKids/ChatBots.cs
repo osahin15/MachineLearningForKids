@@ -123,20 +123,28 @@ namespace MachineLearningForKids
                 MessageBox.Show("Lütfen Size Alanini Doldurunuz.",
                     "Hata", MessageBoxButtons.OK);
             }
-            textFood = txt_Food.Text;
-            textCountries = txt_Countries.Text;
-            textLifeSpan = txt_LifeSpan.Text;
-            textSpecies = txt_Species.Text;
-            textSize = txt_Size.Text;
+            else
+            {
+                textFood = txt_Food.Text;
+                textCountries = txt_Countries.Text;
+                textLifeSpan = txt_LifeSpan.Text;
+                textSpecies = txt_Species.Text;
+                textSize = txt_Size.Text;
+
+                MessageBox.Show("You did everything. Let's Test :)");
+                btn_Make.Enabled = false;
+            }
+
+            
         }
 
         private void btn_Test_Click(object sender, EventArgs e)
         {
-            resultFood = test.FindFood(txt_Test.Text, test.TestFood, returnVal);
-            resultCountries = test.FindCountries(txt_Test.Text, test.TestCountries, returnVal);
-            resultLifeSpan = test.FindLifeSpan(txt_Test.Text, test.TestLifeSpan, returnVal);
-            resultSpecies = test.FindSpecies(txt_Test.Text, test.TestSpecies, returnVal);
-            resultSize = test.FindSize(txt_Test.Text, test.TestSize, returnVal);
+            resultFood = test.Find(txt_Test.Text, test.TestFood, returnVal);
+            resultCountries = test.Find(txt_Test.Text, test.TestCountries, returnVal);
+            resultLifeSpan = test.Find(txt_Test.Text, test.TestLifeSpan, returnVal);
+            resultSpecies = test.Find(txt_Test.Text, test.TestSpecies, returnVal);
+            resultSize = test.Find(txt_Test.Text, test.TestSize, returnVal);
 
             if(resultFood)
             {
@@ -152,7 +160,7 @@ namespace MachineLearningForKids
                 }
             }
 
-            if(resultCountries)
+            else if(resultCountries)
             {
                 if (textCountries == "")
                 {
@@ -166,7 +174,7 @@ namespace MachineLearningForKids
                 }
             }
 
-            if(resultLifeSpan)
+            else if(resultLifeSpan)
             {
                 if (textLifeSpan == "")
                 {
@@ -180,7 +188,7 @@ namespace MachineLearningForKids
                 }
             }
 
-            if(resultSpecies)
+            else if(resultSpecies)
             {
                 if (textSpecies == "")
                 {
@@ -195,7 +203,7 @@ namespace MachineLearningForKids
                 
             }
 
-            if(resultSize)
+            else if(resultSize)
             {
                 if (textSize == "")
                 {
@@ -208,6 +216,11 @@ namespace MachineLearningForKids
                     "Owl Says", MessageBoxButtons.OK);
                 }
                 
+            }
+            else
+            {
+                MessageBox.Show("I didnt understand.",
+                    "Owls Says", MessageBoxButtons.OK);
             }
         }
 
@@ -247,6 +260,7 @@ namespace MachineLearningForKids
                 pnl_Train.Visible = false;
                 pnl_Giris.Visible = true;
                 pnl_Test.Visible = false;
+                btn_TestMenu.Enabled = true;
             }
         }
 
@@ -259,6 +273,7 @@ namespace MachineLearningForKids
             }
             MessageBox.Show("Status: Available!","Status",MessageBoxButtons.OK);
             Learn_bar.Visible = false;
+            btn_MenuMake.Enabled = true;
         }
     }
 }

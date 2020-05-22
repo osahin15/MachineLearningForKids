@@ -60,55 +60,7 @@ namespace MachineLearningForKids
             private set { }
         }
 
-        public bool FindFood(string text,string[] arr,bool retVal)
-        {
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (text.Contains(arr[i]))
-                {
-                    return retVal = true;
-                }
-            }
-            return retVal = false;
-        }
-
-        public bool FindCountries(string text, string[] arr, bool retVal)
-        {
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (text.Contains(arr[i]))
-                {
-                    return retVal = true;
-                }
-            }
-            return retVal = false;
-        }
-
-        public bool FindLifeSpan(string text, string[] arr, bool retVal)
-        {
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (text.Contains(arr[i]))
-                {
-                    return retVal = true;
-                }
-            }
-            return retVal = false;
-        }
-
-        public bool FindSpecies(string text, string[] arr, bool retVal)
-        {
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (text.Contains(arr[i]))
-                {
-                    return retVal = true;
-                }
-            }
-            return retVal = false;
-        }
-
-        public bool FindSize(string text, string[] arr, bool retVal)
+        public bool Find(string text,string[] arr,bool retVal)
         {
             for (int i = 0; i < arr.Length; i++)
             {
