@@ -48,10 +48,10 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.makeMeHappy = new MetroFramework.Controls.MetroTile();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.metroTile10 = new MetroFramework.Controls.MetroTile();
-            this.metroTile9 = new MetroFramework.Controls.MetroTile();
-            this.metroTile8 = new MetroFramework.Controls.MetroTile();
-            this.metroTile7 = new MetroFramework.Controls.MetroTile();
+            this.tileTwitter = new MetroFramework.Controls.MetroTile();
+            this.tileChameleon = new MetroFramework.Controls.MetroTile();
+            this.tileSnap = new MetroFramework.Controls.MetroTile();
+            this.tile_ChatBots = new MetroFramework.Controls.MetroTile();
             this.tileHeadline = new MetroFramework.Controls.MetroTile();
             this.tile_SmartClass = new MetroFramework.Controls.MetroTile();
             this.metroTile4 = new MetroFramework.Controls.MetroTile();
@@ -151,7 +151,7 @@
             this.label1.Location = new System.Drawing.Point(390, 13);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(285, 28);
+            this.label1.Size = new System.Drawing.Size(348, 34);
             this.label1.TabIndex = 1;
             this.label1.Text = "Machine Learning For Kids";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -198,10 +198,10 @@
             this.gamesPanel.Controls.Add(this.pictureBox4);
             this.gamesPanel.Controls.Add(this.pictureBox3);
             this.gamesPanel.Controls.Add(this.makeMeHappy);
-            this.gamesPanel.Controls.Add(this.metroTile10);
-            this.gamesPanel.Controls.Add(this.metroTile9);
-            this.gamesPanel.Controls.Add(this.metroTile8);
-            this.gamesPanel.Controls.Add(this.metroTile7);
+            this.gamesPanel.Controls.Add(this.tileTwitter);
+            this.gamesPanel.Controls.Add(this.tileChameleon);
+            this.gamesPanel.Controls.Add(this.tileSnap);
+            this.gamesPanel.Controls.Add(this.tile_ChatBots);
             this.gamesPanel.Controls.Add(this.tileHeadline);
             this.gamesPanel.Controls.Add(this.tile_SmartClass);
             this.gamesPanel.Controls.Add(this.metroTile4);
@@ -231,7 +231,7 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.Location = new System.Drawing.Point(109, 15);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(477, 13);
+            this.label6.Size = new System.Drawing.Size(609, 17);
             this.label6.TabIndex = 22;
             this.label6.Text = "Hey Çocuk! Yapmak istediğin Machine Learning Oyunlarından birine gir ve başla! :)" +
     "";
@@ -251,10 +251,12 @@
             // pictureBox10
             // 
             this.pictureBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.Location = new System.Drawing.Point(310, 267);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 20;
             this.pictureBox10.TabStop = false;
             // 
@@ -273,20 +275,24 @@
             // pictureBox8
             // 
             this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(612, 266);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 18;
             this.pictureBox8.TabStop = false;
             // 
             // pictureBox7
             // 
             this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(752, 267);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 17;
             this.pictureBox7.TabStop = false;
             // 
@@ -317,10 +323,12 @@
             // pictureBox4
             // 
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(465, 266);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 14;
             this.pictureBox4.TabStop = false;
             // 
@@ -371,61 +379,65 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // metroTile10
+            // tileTwitter
             // 
-            this.metroTile10.ActiveControl = null;
-            this.metroTile10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.metroTile10.Location = new System.Drawing.Point(742, 256);
-            this.metroTile10.Margin = new System.Windows.Forms.Padding(2);
-            this.metroTile10.MaximumSize = new System.Drawing.Size(120, 138);
-            this.metroTile10.MinimumSize = new System.Drawing.Size(88, 92);
-            this.metroTile10.Name = "metroTile10";
-            this.metroTile10.Size = new System.Drawing.Size(109, 104);
-            this.metroTile10.TabIndex = 11;
-            this.metroTile10.Text = "metroTile10";
-            this.metroTile10.UseSelectable = true;
+            this.tileTwitter.ActiveControl = null;
+            this.tileTwitter.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tileTwitter.Location = new System.Drawing.Point(742, 256);
+            this.tileTwitter.Margin = new System.Windows.Forms.Padding(2);
+            this.tileTwitter.MaximumSize = new System.Drawing.Size(120, 138);
+            this.tileTwitter.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tileTwitter.Name = "tileTwitter";
+            this.tileTwitter.Size = new System.Drawing.Size(109, 104);
+            this.tileTwitter.TabIndex = 11;
+            this.tileTwitter.Text = "WhatDoesTwitterThinks";
+            this.tileTwitter.UseSelectable = true;
+            this.tileTwitter.Click += new System.EventHandler(this.tileTwitter_Click);
             // 
-            // metroTile9
+            // tileChameleon
             // 
-            this.metroTile9.ActiveControl = null;
-            this.metroTile9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.metroTile9.Location = new System.Drawing.Point(602, 256);
-            this.metroTile9.Margin = new System.Windows.Forms.Padding(2);
-            this.metroTile9.MaximumSize = new System.Drawing.Size(120, 138);
-            this.metroTile9.MinimumSize = new System.Drawing.Size(88, 92);
-            this.metroTile9.Name = "metroTile9";
-            this.metroTile9.Size = new System.Drawing.Size(109, 104);
-            this.metroTile9.TabIndex = 10;
-            this.metroTile9.Text = "metroTile9";
-            this.metroTile9.UseSelectable = true;
+            this.tileChameleon.ActiveControl = null;
+            this.tileChameleon.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tileChameleon.Location = new System.Drawing.Point(602, 256);
+            this.tileChameleon.Margin = new System.Windows.Forms.Padding(2);
+            this.tileChameleon.MaximumSize = new System.Drawing.Size(120, 138);
+            this.tileChameleon.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tileChameleon.Name = "tileChameleon";
+            this.tileChameleon.Size = new System.Drawing.Size(109, 104);
+            this.tileChameleon.TabIndex = 10;
+            this.tileChameleon.Text = "Chameleon";
+            this.tileChameleon.UseSelectable = true;
+            this.tileChameleon.Click += new System.EventHandler(this.tileChameleon_Click);
             // 
-            // metroTile8
+            // tileSnap
             // 
-            this.metroTile8.ActiveControl = null;
-            this.metroTile8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.metroTile8.Location = new System.Drawing.Point(455, 256);
-            this.metroTile8.Margin = new System.Windows.Forms.Padding(2);
-            this.metroTile8.MaximumSize = new System.Drawing.Size(120, 138);
-            this.metroTile8.MinimumSize = new System.Drawing.Size(88, 92);
-            this.metroTile8.Name = "metroTile8";
-            this.metroTile8.Size = new System.Drawing.Size(109, 104);
-            this.metroTile8.TabIndex = 9;
-            this.metroTile8.Text = "metroTile8";
-            this.metroTile8.UseSelectable = true;
+            this.tileSnap.ActiveControl = null;
+            this.tileSnap.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tileSnap.Location = new System.Drawing.Point(455, 256);
+            this.tileSnap.Margin = new System.Windows.Forms.Padding(2);
+            this.tileSnap.MaximumSize = new System.Drawing.Size(120, 138);
+            this.tileSnap.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tileSnap.Name = "tileSnap";
+            this.tileSnap.Size = new System.Drawing.Size(109, 104);
+            this.tileSnap.TabIndex = 9;
+            this.tileSnap.Text = "Snap";
+            this.tileSnap.UseSelectable = true;
+            this.tileSnap.Click += new System.EventHandler(this.tileSnap_Click);
             // 
-            // metroTile7
+            // tile_ChatBots
             // 
-            this.metroTile7.ActiveControl = null;
-            this.metroTile7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.metroTile7.Location = new System.Drawing.Point(300, 256);
-            this.metroTile7.Margin = new System.Windows.Forms.Padding(2);
-            this.metroTile7.MaximumSize = new System.Drawing.Size(120, 138);
-            this.metroTile7.MinimumSize = new System.Drawing.Size(88, 92);
-            this.metroTile7.Name = "metroTile7";
-            this.metroTile7.Size = new System.Drawing.Size(109, 104);
-            this.metroTile7.TabIndex = 8;
-            this.metroTile7.Text = "metroTile7";
-            this.metroTile7.UseSelectable = true;
+            this.tile_ChatBots.ActiveControl = null;
+            this.tile_ChatBots.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tile_ChatBots.Location = new System.Drawing.Point(300, 256);
+            this.tile_ChatBots.Margin = new System.Windows.Forms.Padding(2);
+            this.tile_ChatBots.MaximumSize = new System.Drawing.Size(120, 138);
+            this.tile_ChatBots.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tile_ChatBots.Name = "tile_ChatBots";
+            this.tile_ChatBots.Size = new System.Drawing.Size(109, 104);
+            this.tile_ChatBots.TabIndex = 8;
+            this.tile_ChatBots.Text = "ChatBots";
+            this.tile_ChatBots.UseSelectable = true;
+            this.tile_ChatBots.Click += new System.EventHandler(this.tile_ChatBots_Click);
             // 
             // tileHeadline
             // 
@@ -566,7 +578,7 @@
             this.label3.Location = new System.Drawing.Point(617, 51);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 26);
+            this.label3.Size = new System.Drawing.Size(109, 31);
             this.label3.TabIndex = 5;
             this.label3.Text = "Neden?";
             // 
@@ -580,13 +592,13 @@
             this.label2.Location = new System.Drawing.Point(318, 51);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 26);
+            this.label2.Size = new System.Drawing.Size(94, 31);
             this.label2.TabIndex = 3;
             this.label2.Text = "Nedir?";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1022, 611);
             this.Controls.Add(this.homePanel);
@@ -639,10 +651,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroFramework.Controls.MetroPanel gamesPanel;
         private MetroFramework.Controls.MetroTile makeMeHappy;
-        private MetroFramework.Controls.MetroTile metroTile10;
-        private MetroFramework.Controls.MetroTile metroTile9;
-        private MetroFramework.Controls.MetroTile metroTile8;
-        private MetroFramework.Controls.MetroTile metroTile7;
+        private MetroFramework.Controls.MetroTile tileTwitter;
+        private MetroFramework.Controls.MetroTile tileChameleon;
+        private MetroFramework.Controls.MetroTile tileSnap;
+        private MetroFramework.Controls.MetroTile tile_ChatBots;
         private MetroFramework.Controls.MetroTile tileHeadline;
 //=======
         private MetroFramework.Controls.MetroTile tile_SmartClass;

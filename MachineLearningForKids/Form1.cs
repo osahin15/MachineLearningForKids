@@ -20,6 +20,10 @@ namespace MachineLearningForKids
         private JournetToSchool formJournetToSchool;
         private SmartClass frmSmartClass;
         private HeadlinesEasy frmheadlinesEasy;
+        private ChatBots frmChatBots;
+        private Snap frmSnap;
+        private Chameleon frmChameleon;
+        private WhatDoesTwitterThinks frmTwitter;
         public Form1()
         {
             InitializeComponent();
@@ -103,6 +107,30 @@ namespace MachineLearningForKids
         private void gamesPanel_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void tile_ChatBots_Click(object sender, EventArgs e)
+        {
+            frmChatBots = new ChatBots();
+            frmChatBots.ShowDialog();
+        }
+
+        private void tileSnap_Click(object sender, EventArgs e)
+        {
+            frmSnap = new Snap();
+            frmSnap.ShowDialog();
+        }
+
+        private void tileChameleon_Click(object sender, EventArgs e)
+        {
+            frmChameleon = new Chameleon();
+            frmChameleon.ShowDialog();
+        }
+
+        private void tileTwitter_Click(object sender, EventArgs e)
+        {
+            frmTwitter = new WhatDoesTwitterThinks();
+            frmTwitter.ShowDialog();
         }
     }
 }
