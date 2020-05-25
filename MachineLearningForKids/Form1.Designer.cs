@@ -39,7 +39,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -61,13 +60,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.metroPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.homePanel.SuspendLayout();
             this.gamesPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -76,6 +75,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.makeMeHappy.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.titanicTile.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // metroPanel1
@@ -88,24 +89,24 @@
             this.metroPanel1.Controls.Add(this.homeBtn);
             this.metroPanel1.HorizontalScrollbarBarColor = false;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.HorizontalScrollbarSize = 8;
-            this.metroPanel1.Location = new System.Drawing.Point(17, 46);
+            this.metroPanel1.HorizontalScrollbarSize = 6;
+            this.metroPanel1.Location = new System.Drawing.Point(13, 35);
             this.metroPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(987, 50);
+            this.metroPanel1.Size = new System.Drawing.Size(909, 38);
             this.metroPanel1.TabIndex = 0;
             this.metroPanel1.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroPanel1.VerticalScrollbarBarColor = false;
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.VerticalScrollbarSize = 8;
+            this.metroPanel1.VerticalScrollbarSize = 6;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(68, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(51, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(42, 38);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -116,10 +117,10 @@
             this.gamesBtn.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.gamesBtn.BackColor = System.Drawing.Color.PaleTurquoise;
             this.gamesBtn.ForeColor = System.Drawing.Color.White;
-            this.gamesBtn.Location = new System.Drawing.Point(501, 16);
+            this.gamesBtn.Location = new System.Drawing.Point(453, 4);
             this.gamesBtn.Margin = new System.Windows.Forms.Padding(2);
             this.gamesBtn.Name = "gamesBtn";
-            this.gamesBtn.Size = new System.Drawing.Size(84, 24);
+            this.gamesBtn.Size = new System.Drawing.Size(87, 32);
             this.gamesBtn.TabIndex = 2;
             this.gamesBtn.Text = "Games";
             this.gamesBtn.UseCustomBackColor = true;
@@ -131,10 +132,10 @@
             this.homeBtn.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.homeBtn.BackColor = System.Drawing.Color.PaleTurquoise;
             this.homeBtn.ForeColor = System.Drawing.Color.White;
-            this.homeBtn.Location = new System.Drawing.Point(369, 16);
+            this.homeBtn.Location = new System.Drawing.Point(325, 4);
             this.homeBtn.Margin = new System.Windows.Forms.Padding(2);
             this.homeBtn.Name = "homeBtn";
-            this.homeBtn.Size = new System.Drawing.Size(87, 24);
+            this.homeBtn.Size = new System.Drawing.Size(96, 32);
             this.homeBtn.TabIndex = 1;
             this.homeBtn.Text = "Homepage";
             this.homeBtn.UseCustomBackColor = true;
@@ -148,10 +149,10 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft JhengHei", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(390, 13);
+            this.label1.Location = new System.Drawing.Point(320, 5);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(348, 34);
+            this.label1.Size = new System.Drawing.Size(285, 28);
             this.label1.TabIndex = 1;
             this.label1.Text = "Machine Learning For Kids";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -169,17 +170,17 @@
             this.homePanel.Controls.Add(this.label2);
             this.homePanel.HorizontalScrollbarBarColor = true;
             this.homePanel.HorizontalScrollbarHighlightOnWheel = false;
-            this.homePanel.HorizontalScrollbarSize = 8;
-            this.homePanel.Location = new System.Drawing.Point(15, 111);
+            this.homePanel.HorizontalScrollbarSize = 6;
+            this.homePanel.Location = new System.Drawing.Point(11, 85);
             this.homePanel.Margin = new System.Windows.Forms.Padding(2);
             this.homePanel.Name = "homePanel";
-            this.homePanel.Size = new System.Drawing.Size(992, 484);
+            this.homePanel.Size = new System.Drawing.Size(913, 480);
             this.homePanel.TabIndex = 2;
             this.homePanel.Theme = MetroFramework.MetroThemeStyle.Light;
             this.homePanel.UseCustomBackColor = true;
             this.homePanel.VerticalScrollbarBarColor = true;
             this.homePanel.VerticalScrollbarHighlightOnWheel = false;
-            this.homePanel.VerticalScrollbarSize = 8;
+            this.homePanel.VerticalScrollbarSize = 6;
             // 
             // gamesPanel
             // 
@@ -187,13 +188,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gamesPanel.BackColor = System.Drawing.Color.Honeydew;
+            this.gamesPanel.Controls.Add(this.pictureBox6);
             this.gamesPanel.Controls.Add(this.label6);
             this.gamesPanel.Controls.Add(this.pictureBox11);
             this.gamesPanel.Controls.Add(this.pictureBox10);
-            this.gamesPanel.Controls.Add(this.pictureBox9);
             this.gamesPanel.Controls.Add(this.pictureBox8);
             this.gamesPanel.Controls.Add(this.pictureBox7);
-            this.gamesPanel.Controls.Add(this.pictureBox6);
             this.gamesPanel.Controls.Add(this.pictureBox5);
             this.gamesPanel.Controls.Add(this.pictureBox4);
             this.gamesPanel.Controls.Add(this.pictureBox3);
@@ -209,17 +209,17 @@
             this.gamesPanel.Controls.Add(this.titanicTile);
             this.gamesPanel.HorizontalScrollbarBarColor = true;
             this.gamesPanel.HorizontalScrollbarHighlightOnWheel = false;
-            this.gamesPanel.HorizontalScrollbarSize = 8;
+            this.gamesPanel.HorizontalScrollbarSize = 6;
             this.gamesPanel.Location = new System.Drawing.Point(2, 2);
             this.gamesPanel.Margin = new System.Windows.Forms.Padding(2);
             this.gamesPanel.Name = "gamesPanel";
-            this.gamesPanel.Size = new System.Drawing.Size(992, 484);
+            this.gamesPanel.Size = new System.Drawing.Size(913, 480);
             this.gamesPanel.TabIndex = 8;
             this.gamesPanel.Theme = MetroFramework.MetroThemeStyle.Light;
             this.gamesPanel.UseCustomBackColor = true;
             this.gamesPanel.VerticalScrollbarBarColor = true;
             this.gamesPanel.VerticalScrollbarHighlightOnWheel = false;
-            this.gamesPanel.VerticalScrollbarSize = 8;
+            this.gamesPanel.VerticalScrollbarSize = 6;
             this.gamesPanel.Visible = false;
             this.gamesPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.gamesPanel_Paint);
             // 
@@ -229,9 +229,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(109, 15);
+            this.label6.Location = new System.Drawing.Point(82, 11);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(609, 17);
+            this.label6.Size = new System.Drawing.Size(477, 13);
             this.label6.TabIndex = 22;
             this.label6.Text = "Hey Çocuk! Yapmak istediğin Machine Learning Oyunlarından birine gir ve başla! :)" +
     "";
@@ -240,10 +241,10 @@
             // 
             this.pictureBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(168, 267);
+            this.pictureBox11.Location = new System.Drawing.Point(43, 285);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox11.Size = new System.Drawing.Size(129, 82);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 21;
             this.pictureBox11.TabStop = false;
@@ -252,34 +253,22 @@
             // 
             this.pictureBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(310, 267);
+            this.pictureBox10.Location = new System.Drawing.Point(206, 285);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox10.Size = new System.Drawing.Size(129, 82);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 20;
             this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(312, 139);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(89, 66);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 19;
-            this.pictureBox9.TabStop = false;
             // 
             // pictureBox8
             // 
             this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(612, 266);
+            this.pictureBox8.Location = new System.Drawing.Point(541, 285);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox8.Size = new System.Drawing.Size(129, 82);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 18;
             this.pictureBox8.TabStop = false;
@@ -288,10 +277,10 @@
             // 
             this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(752, 267);
+            this.pictureBox7.Location = new System.Drawing.Point(707, 285);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox7.Size = new System.Drawing.Size(129, 82);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 17;
             this.pictureBox7.TabStop = false;
@@ -300,10 +289,10 @@
             // 
             this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(752, 138);
+            this.pictureBox6.Location = new System.Drawing.Point(707, 118);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox6.Size = new System.Drawing.Size(129, 82);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 16;
             this.pictureBox6.TabStop = false;
@@ -312,10 +301,10 @@
             // 
             this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(612, 138);
+            this.pictureBox5.Location = new System.Drawing.Point(541, 118);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox5.Size = new System.Drawing.Size(129, 82);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 15;
             this.pictureBox5.TabStop = false;
@@ -324,10 +313,10 @@
             // 
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(465, 266);
+            this.pictureBox4.Location = new System.Drawing.Point(379, 285);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox4.Size = new System.Drawing.Size(129, 82);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 14;
             this.pictureBox4.TabStop = false;
@@ -336,10 +325,10 @@
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(465, 138);
+            this.pictureBox3.Location = new System.Drawing.Point(379, 118);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox3.Size = new System.Drawing.Size(129, 82);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 13;
             this.pictureBox3.TabStop = false;
@@ -350,31 +339,29 @@
             this.makeMeHappy.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.makeMeHappy.BackColor = System.Drawing.Color.YellowGreen;
             this.makeMeHappy.Controls.Add(this.pictureBox2);
-            this.makeMeHappy.Location = new System.Drawing.Point(156, 128);
+            this.makeMeHappy.Location = new System.Drawing.Point(32, 84);
             this.makeMeHappy.Margin = new System.Windows.Forms.Padding(2);
-            this.makeMeHappy.MaximumSize = new System.Drawing.Size(120, 138);
-            this.makeMeHappy.MinimumSize = new System.Drawing.Size(88, 92);
+            this.makeMeHappy.MaximumSize = new System.Drawing.Size(150, 150);
+            this.makeMeHappy.MinimumSize = new System.Drawing.Size(66, 70);
             this.makeMeHappy.Name = "makeMeHappy";
-            this.makeMeHappy.Size = new System.Drawing.Size(109, 104);
+            this.makeMeHappy.Size = new System.Drawing.Size(150, 150);
             this.makeMeHappy.TabIndex = 12;
             this.makeMeHappy.Text = "MakeHappy";
             this.makeMeHappy.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.makeMeHappy.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.makeMeHappy.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.makeMeHappy.TileImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.makeMeHappy.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.makeMeHappy.UseCustomBackColor = true;
             this.makeMeHappy.UseSelectable = true;
             this.makeMeHappy.Click += new System.EventHandler(this.makeMeHappy_Click);
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox2.Location = new System.Drawing.Point(11, 34);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(89, 66);
+            this.pictureBox2.Size = new System.Drawing.Size(129, 82);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -383,14 +370,15 @@
             // 
             this.tileTwitter.ActiveControl = null;
             this.tileTwitter.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tileTwitter.Location = new System.Drawing.Point(742, 256);
+            this.tileTwitter.Location = new System.Drawing.Point(696, 251);
             this.tileTwitter.Margin = new System.Windows.Forms.Padding(2);
-            this.tileTwitter.MaximumSize = new System.Drawing.Size(120, 138);
-            this.tileTwitter.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tileTwitter.MaximumSize = new System.Drawing.Size(150, 150);
+            this.tileTwitter.MinimumSize = new System.Drawing.Size(66, 70);
             this.tileTwitter.Name = "tileTwitter";
-            this.tileTwitter.Size = new System.Drawing.Size(109, 104);
+            this.tileTwitter.Size = new System.Drawing.Size(150, 150);
             this.tileTwitter.TabIndex = 11;
             this.tileTwitter.Text = "WhatDoesTwitterThinks";
+            this.tileTwitter.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.tileTwitter.UseSelectable = true;
             this.tileTwitter.Click += new System.EventHandler(this.tileTwitter_Click);
             // 
@@ -398,14 +386,17 @@
             // 
             this.tileChameleon.ActiveControl = null;
             this.tileChameleon.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tileChameleon.Location = new System.Drawing.Point(602, 256);
+            this.tileChameleon.BackColor = System.Drawing.Color.Orange;
+            this.tileChameleon.Location = new System.Drawing.Point(530, 251);
             this.tileChameleon.Margin = new System.Windows.Forms.Padding(2);
-            this.tileChameleon.MaximumSize = new System.Drawing.Size(120, 138);
-            this.tileChameleon.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tileChameleon.MaximumSize = new System.Drawing.Size(150, 150);
+            this.tileChameleon.MinimumSize = new System.Drawing.Size(66, 70);
             this.tileChameleon.Name = "tileChameleon";
-            this.tileChameleon.Size = new System.Drawing.Size(109, 104);
+            this.tileChameleon.Size = new System.Drawing.Size(150, 150);
             this.tileChameleon.TabIndex = 10;
             this.tileChameleon.Text = "Chameleon";
+            this.tileChameleon.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.tileChameleon.UseCustomBackColor = true;
             this.tileChameleon.UseSelectable = true;
             this.tileChameleon.Click += new System.EventHandler(this.tileChameleon_Click);
             // 
@@ -413,14 +404,18 @@
             // 
             this.tileSnap.ActiveControl = null;
             this.tileSnap.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tileSnap.Location = new System.Drawing.Point(455, 256);
+            this.tileSnap.BackColor = System.Drawing.Color.Red;
+            this.tileSnap.Location = new System.Drawing.Point(368, 251);
             this.tileSnap.Margin = new System.Windows.Forms.Padding(2);
-            this.tileSnap.MaximumSize = new System.Drawing.Size(120, 138);
-            this.tileSnap.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tileSnap.MaximumSize = new System.Drawing.Size(150, 150);
+            this.tileSnap.MinimumSize = new System.Drawing.Size(66, 70);
             this.tileSnap.Name = "tileSnap";
-            this.tileSnap.Size = new System.Drawing.Size(109, 104);
+            this.tileSnap.Size = new System.Drawing.Size(150, 150);
             this.tileSnap.TabIndex = 9;
             this.tileSnap.Text = "Snap";
+            this.tileSnap.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tileSnap.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.tileSnap.UseCustomBackColor = true;
             this.tileSnap.UseSelectable = true;
             this.tileSnap.Click += new System.EventHandler(this.tileSnap_Click);
             // 
@@ -428,14 +423,18 @@
             // 
             this.tile_ChatBots.ActiveControl = null;
             this.tile_ChatBots.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tile_ChatBots.Location = new System.Drawing.Point(300, 256);
+            this.tile_ChatBots.BackColor = System.Drawing.Color.SaddleBrown;
+            this.tile_ChatBots.Location = new System.Drawing.Point(195, 251);
             this.tile_ChatBots.Margin = new System.Windows.Forms.Padding(2);
-            this.tile_ChatBots.MaximumSize = new System.Drawing.Size(120, 138);
-            this.tile_ChatBots.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tile_ChatBots.MaximumSize = new System.Drawing.Size(150, 150);
+            this.tile_ChatBots.MinimumSize = new System.Drawing.Size(66, 70);
             this.tile_ChatBots.Name = "tile_ChatBots";
-            this.tile_ChatBots.Size = new System.Drawing.Size(109, 104);
+            this.tile_ChatBots.Size = new System.Drawing.Size(150, 150);
             this.tile_ChatBots.TabIndex = 8;
             this.tile_ChatBots.Text = "ChatBots";
+            this.tile_ChatBots.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tile_ChatBots.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.tile_ChatBots.UseCustomBackColor = true;
             this.tile_ChatBots.UseSelectable = true;
             this.tile_ChatBots.Click += new System.EventHandler(this.tile_ChatBots_Click);
             // 
@@ -444,15 +443,15 @@
             this.tileHeadline.ActiveControl = null;
             this.tileHeadline.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tileHeadline.BackColor = System.Drawing.Color.DeepPink;
-            this.tileHeadline.Location = new System.Drawing.Point(742, 128);
+            this.tileHeadline.Location = new System.Drawing.Point(696, 84);
             this.tileHeadline.Margin = new System.Windows.Forms.Padding(2);
-            this.tileHeadline.MaximumSize = new System.Drawing.Size(120, 138);
-            this.tileHeadline.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tileHeadline.MaximumSize = new System.Drawing.Size(150, 150);
+            this.tileHeadline.MinimumSize = new System.Drawing.Size(66, 70);
             this.tileHeadline.Name = "tileHeadline";
-            this.tileHeadline.Size = new System.Drawing.Size(109, 104);
+            this.tileHeadline.Size = new System.Drawing.Size(150, 150);
             this.tileHeadline.TabIndex = 6;
             this.tileHeadline.Text = "HeadlineEasy";
-            this.tileHeadline.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tileHeadline.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.tileHeadline.UseCustomBackColor = true;
             this.tileHeadline.UseSelectable = true;
             this.tileHeadline.Click += new System.EventHandler(this.tileHeadline_Click);
@@ -462,16 +461,16 @@
             this.tile_SmartClass.ActiveControl = null;
             this.tile_SmartClass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tile_SmartClass.BackColor = System.Drawing.Color.DimGray;
-            this.tile_SmartClass.Location = new System.Drawing.Point(158, 256);
+            this.tile_SmartClass.Location = new System.Drawing.Point(32, 251);
             this.tile_SmartClass.Margin = new System.Windows.Forms.Padding(2);
-            this.tile_SmartClass.MaximumSize = new System.Drawing.Size(120, 138);
-            this.tile_SmartClass.MinimumSize = new System.Drawing.Size(88, 92);
+            this.tile_SmartClass.MaximumSize = new System.Drawing.Size(150, 150);
+            this.tile_SmartClass.MinimumSize = new System.Drawing.Size(66, 70);
             this.tile_SmartClass.Name = "tile_SmartClass";
-            this.tile_SmartClass.Size = new System.Drawing.Size(109, 104);
+            this.tile_SmartClass.Size = new System.Drawing.Size(150, 150);
             this.tile_SmartClass.TabIndex = 7;
             this.tile_SmartClass.Text = "SmartClass";
             this.tile_SmartClass.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tile_SmartClass.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile_SmartClass.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.tile_SmartClass.UseCustomBackColor = true;
             this.tile_SmartClass.UseSelectable = true;
             this.tile_SmartClass.Click += new System.EventHandler(this.tile_SmartClass_Click);
@@ -481,16 +480,16 @@
             this.metroTile4.ActiveControl = null;
             this.metroTile4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.metroTile4.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.metroTile4.Location = new System.Drawing.Point(602, 128);
+            this.metroTile4.Location = new System.Drawing.Point(530, 84);
             this.metroTile4.Margin = new System.Windows.Forms.Padding(2);
-            this.metroTile4.MaximumSize = new System.Drawing.Size(120, 138);
-            this.metroTile4.MinimumSize = new System.Drawing.Size(88, 92);
+            this.metroTile4.MaximumSize = new System.Drawing.Size(150, 150);
+            this.metroTile4.MinimumSize = new System.Drawing.Size(66, 70);
             this.metroTile4.Name = "metroTile4";
-            this.metroTile4.Size = new System.Drawing.Size(109, 104);
+            this.metroTile4.Size = new System.Drawing.Size(150, 150);
             this.metroTile4.TabIndex = 5;
             this.metroTile4.Text = "JourneySchool";
             this.metroTile4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.metroTile4.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.metroTile4.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.metroTile4.UseCustomBackColor = true;
             this.metroTile4.UseSelectable = true;
             this.metroTile4.Click += new System.EventHandler(this.metroTile4_Click);
@@ -500,17 +499,17 @@
             this.judgeabookTile.ActiveControl = null;
             this.judgeabookTile.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.judgeabookTile.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.judgeabookTile.Location = new System.Drawing.Point(455, 128);
+            this.judgeabookTile.Location = new System.Drawing.Point(368, 84);
             this.judgeabookTile.Margin = new System.Windows.Forms.Padding(2);
-            this.judgeabookTile.MaximumSize = new System.Drawing.Size(120, 138);
-            this.judgeabookTile.MinimumSize = new System.Drawing.Size(88, 92);
+            this.judgeabookTile.MaximumSize = new System.Drawing.Size(150, 150);
+            this.judgeabookTile.MinimumSize = new System.Drawing.Size(66, 70);
             this.judgeabookTile.Name = "judgeabookTile";
-            this.judgeabookTile.Size = new System.Drawing.Size(109, 104);
+            this.judgeabookTile.Size = new System.Drawing.Size(150, 150);
             this.judgeabookTile.TabIndex = 4;
             this.judgeabookTile.Text = "Judge a Book";
             this.judgeabookTile.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.judgeabookTile.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.judgeabookTile.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.judgeabookTile.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.judgeabookTile.UseCustomBackColor = true;
             this.judgeabookTile.UseSelectable = true;
             this.judgeabookTile.Click += new System.EventHandler(this.judgeabookTile_Click);
@@ -520,87 +519,102 @@
             this.titanicTile.ActiveControl = null;
             this.titanicTile.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.titanicTile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.titanicTile.Controls.Add(this.pictureBox9);
             this.titanicTile.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.titanicTile.Location = new System.Drawing.Point(300, 128);
+            this.titanicTile.Location = new System.Drawing.Point(195, 83);
             this.titanicTile.Margin = new System.Windows.Forms.Padding(2);
-            this.titanicTile.MaximumSize = new System.Drawing.Size(120, 138);
-            this.titanicTile.MinimumSize = new System.Drawing.Size(88, 92);
+            this.titanicTile.MaximumSize = new System.Drawing.Size(150, 150);
+            this.titanicTile.MinimumSize = new System.Drawing.Size(66, 70);
             this.titanicTile.Name = "titanicTile";
-            this.titanicTile.Size = new System.Drawing.Size(109, 104);
+            this.titanicTile.Size = new System.Drawing.Size(150, 150);
             this.titanicTile.TabIndex = 3;
             this.titanicTile.Text = "Titanic";
             this.titanicTile.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.titanicTile.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.titanicTile.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.titanicTile.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.titanicTile.UseCustomBackColor = true;
             this.titanicTile.UseCustomForeColor = true;
             this.titanicTile.UseSelectable = true;
+            this.titanicTile.UseTileImage = true;
             this.titanicTile.Click += new System.EventHandler(this.titanicTile_Click);
             // 
             // label5
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(515, 90);
+            this.label5.Location = new System.Drawing.Point(470, 69);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(282, 381);
+            this.label5.Size = new System.Drawing.Size(400, 300);
             this.label5.TabIndex = 7;
             this.label5.Text = resources.GetString("label5.Text");
-            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(206, 90);
+            this.label4.Location = new System.Drawing.Point(100, 69);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(277, 334);
+            this.label4.Size = new System.Drawing.Size(320, 300);
             this.label4.TabIndex = 6;
             this.label4.Text = resources.GetString("label4.Text");
-            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label4.UseCompatibleTextRendering = true;
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(617, 51);
+            this.label3.Location = new System.Drawing.Point(610, 39);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 31);
+            this.label3.Size = new System.Drawing.Size(88, 26);
             this.label3.TabIndex = 5;
             this.label3.Text = "Neden?";
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(318, 51);
+            this.label2.Location = new System.Drawing.Point(190, 39);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 31);
+            this.label2.Size = new System.Drawing.Size(76, 26);
             this.label2.TabIndex = 3;
             this.label2.Text = "Nedir?";
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(11, 35);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(129, 82);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 0;
+            this.pictureBox9.TabStop = false;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1022, 611);
+            this.ClientSize = new System.Drawing.Size(935, 577);
             this.Controls.Add(this.homePanel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.metroPanel1);
@@ -608,7 +622,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
-            this.Padding = new System.Windows.Forms.Padding(15, 30, 15, 16);
+            this.Padding = new System.Windows.Forms.Padding(11, 23, 11, 12);
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.DropShadow;
             this.Style = MetroFramework.MetroColorStyle.Default;
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
@@ -623,7 +637,6 @@
             this.gamesPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -632,6 +645,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.makeMeHappy.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.titanicTile.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -664,7 +679,6 @@
         private MetroFramework.Controls.MetroTile titanicTile;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
@@ -673,6 +687,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox9;
     }
 }
 

@@ -44,3 +44,7 @@ C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\M
 C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.Snap.resources
 C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.Chameleon.resources
 C:\Users\Osahn\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.WhatDoesTwitterThinks.resources
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.Chameleon.resources
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.ChatBots.resources
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.Snap.resources
+C:\Users\osahi\Desktop\MachineLearningForKids\MachineLearningForKids\obj\Debug\MachineLearningForKids.WhatDoesTwitterThinks.resources
