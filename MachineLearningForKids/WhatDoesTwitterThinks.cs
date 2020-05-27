@@ -29,13 +29,21 @@ namespace MachineLearningForKids
 
         private void WhatDoesTwitterThinks_Load(object sender, EventArgs e)
         {
+            List<RadioButton> radios = new List<RadioButton>(){rdoDislikes,rdoLikes,rdoNeither};
 
+            foreach (var radio in radios)
+            {
+                radio.Checked = false;
+            
+            }
         }
 
         private void btnEkle_Click(object sender, EventArgs e)
         {
 
             Label lbl = new Label();
+            lbl.AutoSize = false;
+            lbl.Size = new Size(150,110);
             lbl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             lbl.BackColor = Color.DeepSkyBlue;
             lbl.Text = txtTrain.Text;

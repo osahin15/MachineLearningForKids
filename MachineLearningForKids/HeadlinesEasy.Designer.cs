@@ -43,10 +43,10 @@
             this.radioInde = new System.Windows.Forms.RadioButton();
             this.radioGuar = new System.Windows.Forms.RadioButton();
             this.btnEkle = new System.Windows.Forms.Button();
-            this.txtHaber = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnTest = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.txtHaber = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // panel1
@@ -214,18 +214,6 @@
             this.btnEkle.UseVisualStyleBackColor = false;
             this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
-            // txtHaber
-            // 
-            this.txtHaber.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtHaber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtHaber.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.txtHaber.Location = new System.Drawing.Point(346, 104);
-            this.txtHaber.Multiline = true;
-            this.txtHaber.Name = "txtHaber";
-            this.txtHaber.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtHaber.Size = new System.Drawing.Size(333, 142);
-            this.txtHaber.TabIndex = 15;
-            // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -266,6 +254,18 @@
             this.label6.Size = new System.Drawing.Size(113, 13);
             this.label6.TabIndex = 18;
             this.label6.Text = "Haber Başlığı Ekleyiniz";
+            // 
+            // txtHaber
+            // 
+            this.txtHaber.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtHaber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtHaber.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.txtHaber.Location = new System.Drawing.Point(346, 104);
+            this.txtHaber.Multiline = true;
+            this.txtHaber.Name = "txtHaber";
+            this.txtHaber.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtHaber.Size = new System.Drawing.Size(333, 142);
+            this.txtHaber.TabIndex = 15;
             // 
             // HeadlinesEasy
             // 
@@ -316,9 +316,9 @@
         private System.Windows.Forms.RadioButton radioInde;
         private System.Windows.Forms.RadioButton radioGuar;
         private System.Windows.Forms.Button btnEkle;
-        private System.Windows.Forms.TextBox txtHaber;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtHaber;
     }
 }
