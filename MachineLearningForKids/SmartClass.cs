@@ -69,10 +69,10 @@ namespace MachineLearningForKids
         private void btn_Test_Click(object sender, EventArgs e)
         {
             bool kontrol = false;
-            resultLampOn = smartClass.getLampOn(txt_Test.Text, smartClass.lampOn, returnVal);
-            resultLampOff = smartClass.getLampOff(txt_Test.Text, smartClass.lampOff, returnVal);
-            resultFanOn = smartClass.getFanOn(txt_Test.Text, smartClass.fanOn, returnVal);
-            resultFanOff = smartClass.getFanOff(txt_Test.Text, smartClass.fanOff, returnVal);
+            resultLampOn = smartClass.FindWord(txt_Test.Text, smartClass.lampOn, returnVal);
+            resultLampOff = smartClass.FindWord(txt_Test.Text, smartClass.lampOff, returnVal);
+            resultFanOn = smartClass.FindWord(txt_Test.Text, smartClass.fanOn, returnVal);
+            resultFanOff = smartClass.FindWord(txt_Test.Text, smartClass.fanOff, returnVal);
 
             if (resultLampOn == true)
             {
@@ -110,7 +110,33 @@ namespace MachineLearningForKids
 
         private void btn_Train_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Train Edildi");
+            if(lyt_FanOff.Controls.Count==0)
+            {
+                MessageBox.Show("Lütfen Train Edilecek Bilgileri Giriniz.",
+                    "Hata", MessageBoxButtons.OK);
+            }
+            else if (lyt_FanOn.Controls.Count == 0)
+            {
+                MessageBox.Show("Lütfen Train Edilecek Bilgileri Giriniz.",
+                    "Hata", MessageBoxButtons.OK);
+            }
+            else if (lyt_LampOff.Controls.Count == 0)
+            {
+                MessageBox.Show("Lütfen Train Edilecek Bilgileri Giriniz.",
+                    "Hata", MessageBoxButtons.OK);
+            }
+            else if (lyt_LampOn.Controls.Count == 0)
+            {
+                MessageBox.Show("Lütfen Train Edilecek Bilgileri Giriniz.",
+                    "Hata", MessageBoxButtons.OK);
+            }
+            else
+            {
+                MessageBox.Show("Train Edildi");
+                btn_Test.Enabled = true;
+                btn_Train.Enabled = false;
+                btn_Add.Enabled = false;
+            }
         }
     }
 }

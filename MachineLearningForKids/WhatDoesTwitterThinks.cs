@@ -13,11 +13,13 @@ namespace MachineLearningForKids
     public partial class WhatDoesTwitterThinks : MetroFramework.Forms.MetroForm
     {
         TwitterTest twit = new TwitterTest();
+
         public bool resultLike;
         public bool resultDislike;
         public bool resultFlowLike;
         public bool resultFlowDislike;
         public bool ret;
+        public bool kontrol = true;
 
         List<string> flowLikes= new List<string>();
         List<string> flowDislikes = new List<string>();
@@ -81,22 +83,20 @@ namespace MachineLearningForKids
 
         private void btnTrain_Click(object sender, EventArgs e)
         {
-            if (flwLikes.Controls.Count < 6)
+            if(flwLikes.Controls.Count==0)
             {
-                MessageBox.Show("Lütfen Yeterli Öğrenme İçin Gerekli Alanlara En Az 6 Tane Soru Giriniz.",
-                    "Likes Alani Eksik", MessageBoxButtons.OK);
+                MessageBox.Show("Lütfen Train Etmek için Bütün Tweet Ekleyin",
+                    "Likes Alanı Boş", MessageBoxButtons.OK);
             }
-
-            else if (flwDislikes.Controls.Count < 6)
+            else if (flwDislikes.Controls.Count == 0)
             {
-                MessageBox.Show("Lütfen Yeterli Öğrenme İçin Gerekli Alanlara En Az 6 Tane Soru Giriniz.",
-                    "Dislikes Alani Eksik", MessageBoxButtons.OK);
+                MessageBox.Show("Lütfen Train Etmek için Bütün Tweet Ekleyin",
+                    "Dislikes Alanı Boş", MessageBoxButtons.OK);
             }
-
-            else if (flwNeither.Controls.Count < 6)
+            else if (flwNeither.Controls.Count == 0)
             {
-                MessageBox.Show("Lütfen Yeterli Öğrenme İçin Gerekli Alanlara En Az 6 Tane Soru Giriniz.",
-                    "Neither Alanı Eksik", MessageBoxButtons.OK);
+                MessageBox.Show("Lütfen Train Etmek için Bütün Tweet Ekleyin",
+                    "Neither Alanı Boş", MessageBoxButtons.OK);
             }
             else
             {
@@ -104,9 +104,8 @@ namespace MachineLearningForKids
                 btnTrain.Enabled = false;
                 MessageBox.Show("Train Edildi.",
                     "Train", MessageBoxButtons.OK);
+                kontrol = false;
             }
-            btnEkle.Enabled = false;
-            btnTrain.Enabled = false;
         }
 
         private void btnTest_Click(object sender, EventArgs e)
@@ -115,8 +114,12 @@ namespace MachineLearningForKids
             resultDislike = twit.IsLike(txtTest.Text, twit.Dislikes, ret);
             resultFlowLike = twit.IsLıkeForFlow(txtTest.Text, flowLikes, ret);
             resultFlowDislike = twit.IsLıkeForFlow(txtTest.Text, flowDislikes, ret);
-
-            if(resultLike || resultFlowLike)
+            if(kontrol)
+            {
+                MessageBox.Show("Lütfen Önce Train Yapınız.",
+                    "Hata", MessageBoxButtons.OK);
+            }
+            else if(resultLike || resultFlowLike)
             {
                 MessageBox.Show("Like :)",
                     "Duygu Analizi", MessageBoxButtons.OK);

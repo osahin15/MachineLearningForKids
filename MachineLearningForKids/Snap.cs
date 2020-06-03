@@ -19,6 +19,8 @@ namespace MachineLearningForKids
         public string dosyaYoluTest;
         public string dosyaAdiTest;
 
+        public bool kontrol = true;
+
         public Snap()
         {
             InitializeComponent();
@@ -26,7 +28,7 @@ namespace MachineLearningForKids
 
         private void Snap_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Oyunumuzu Oynamak İçin Her Bir Kart Türünden 10 Tane Ekleyip Train Ediniz.Bakalım Öğrenebilecek mi? ",
+            MessageBox.Show("Oyunumuzu Oynamak İçin Her Bir Kart Türünden 5 Tane Ekleyip Train Ediniz.Bakalım Öğrenebilecek mi? ",
                 "Oyun Bilgi", MessageBoxButtons.OK);
         }
 
@@ -145,29 +147,30 @@ namespace MachineLearningForKids
         private void btnTrain_Click(object sender, EventArgs e)
         {
 
-            if (flwKupa.Controls.Count < 10)
+            if (flwKupa.Controls.Count < 5)
             {
-                MessageBox.Show("Lütfen Train İçin En Az 10 Tane Resim Ekleyiniz.");
+                MessageBox.Show("Lütfen Train İçin En Az 5 Tane Resim Ekleyiniz.");
             }
-            else if (flwKaro.Controls.Count < 10)
+            else if (flwKaro.Controls.Count < 5)
             {
-                MessageBox.Show("Lütfen Train İçin En Az 10 Tane Resim Ekleyiniz.");
-            }
-
-            else if (flwMaca.Controls.Count < 10)
-            {
-                MessageBox.Show("Lütfen Train İçin En Az 10 Tane Resim Ekleyiniz.");
+                MessageBox.Show("Lütfen Train İçin En Az 5 Tane Resim Ekleyiniz.");
             }
 
-            else if (flwSinek.Controls.Count < 10)
+            else if (flwMaca.Controls.Count < 5)
             {
-                MessageBox.Show("Lütfen Train İçin En Az 10 Tane Resim Ekleyiniz.");
+                MessageBox.Show("Lütfen Train İçin En Az 5 Tane Resim Ekleyiniz.");
+            }
+
+            else if (flwSinek.Controls.Count < 5)
+            {
+                MessageBox.Show("Lütfen Train İçin En Az 5 Tane Resim Ekleyiniz.");
             }
             else
             {
                 MessageBox.Show("Train Edildi.");
             }
             btnResimTrain.Enabled = false;
+            kontrol = false;
         }
 
         private void btnResimTest_Click(object sender, EventArgs e)
@@ -180,7 +183,17 @@ namespace MachineLearningForKids
 
         private void btnTest_Click(object sender, EventArgs e)
         {
-            if(dosyaAdiTest=="Kupa" || dosyaAdiTest=="kupa")
+            if(kontrol)
+            {
+                MessageBox.Show("Lütfen Önce Train Yapınız.",
+                    "Hata", MessageBoxButtons.OK);
+            }
+            else if(dosyaAdiTest=="")
+            {
+                MessageBox.Show("Lütfen Bir Resim Seçiniz.",
+                    "Hata", MessageBoxButtons.OK);
+            }
+            else if(dosyaAdiTest=="Kupa" || dosyaAdiTest=="kupa")
             {
                 MessageBox.Show("Seçtiğiniz Kart Kupa !",
                     "Tahmin",MessageBoxButtons.OK);

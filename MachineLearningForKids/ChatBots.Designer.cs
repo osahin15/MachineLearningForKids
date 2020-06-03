@@ -96,12 +96,13 @@
             // btn_TrainBack
             // 
             this.btn_TrainBack.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_TrainBack.Image = ((System.Drawing.Image)(resources.GetObject("btn_TrainBack.Image")));
-            this.btn_TrainBack.Location = new System.Drawing.Point(121, 60);
+            this.btn_TrainBack.BackColor = System.Drawing.Color.PowderBlue;
+            this.btn_TrainBack.Location = new System.Drawing.Point(185, 52);
             this.btn_TrainBack.Name = "btn_TrainBack";
-            this.btn_TrainBack.Size = new System.Drawing.Size(127, 68);
+            this.btn_TrainBack.Size = new System.Drawing.Size(205, 68);
             this.btn_TrainBack.TabIndex = 9;
-            this.btn_TrainBack.UseVisualStyleBackColor = true;
+            this.btn_TrainBack.Text = "Train";
+            this.btn_TrainBack.UseVisualStyleBackColor = false;
             this.btn_TrainBack.Click += new System.EventHandler(this.btn_TrainBack_Click);
             // 
             // txt_Train
@@ -242,7 +243,7 @@
             this.pnl_Giris.Controls.Add(this.btn_TestMenu);
             this.pnl_Giris.Controls.Add(this.btn_MenuMake);
             this.pnl_Giris.Controls.Add(this.btn_Train);
-            this.pnl_Giris.Location = new System.Drawing.Point(1, 93);
+            this.pnl_Giris.Location = new System.Drawing.Point(1, 87);
             this.pnl_Giris.Name = "pnl_Giris";
             this.pnl_Giris.Size = new System.Drawing.Size(1210, 530);
             this.pnl_Giris.TabIndex = 1;
@@ -318,7 +319,7 @@
             this.pnl_Test.Controls.Add(this.label1);
             this.pnl_Test.Location = new System.Drawing.Point(1, 77);
             this.pnl_Test.Name = "pnl_Test";
-            this.pnl_Test.Size = new System.Drawing.Size(1210, 562);
+            this.pnl_Test.Size = new System.Drawing.Size(1210, 553);
             this.pnl_Test.TabIndex = 2;
             this.pnl_Test.Visible = false;
             // 
@@ -326,7 +327,7 @@
             // 
             this.btn_Test.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Test.BackColor = System.Drawing.Color.LightCyan;
-            this.btn_Test.Location = new System.Drawing.Point(735, 372);
+            this.btn_Test.Location = new System.Drawing.Point(735, 367);
             this.btn_Test.Name = "btn_Test";
             this.btn_Test.Size = new System.Drawing.Size(331, 66);
             this.btn_Test.TabIndex = 13;
@@ -337,7 +338,7 @@
             // txt_Test
             // 
             this.txt_Test.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Test.Location = new System.Drawing.Point(735, 309);
+            this.txt_Test.Location = new System.Drawing.Point(735, 304);
             this.txt_Test.Name = "txt_Test";
             this.txt_Test.Size = new System.Drawing.Size(331, 22);
             this.txt_Test.TabIndex = 12;
@@ -346,7 +347,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(735, 54);
+            this.pictureBox1.Location = new System.Drawing.Point(735, 49);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(331, 249);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -357,7 +358,7 @@
             // 
             this.btn_Make.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Make.BackColor = System.Drawing.Color.LightCyan;
-            this.btn_Make.Location = new System.Drawing.Point(99, 372);
+            this.btn_Make.Location = new System.Drawing.Point(99, 367);
             this.btn_Make.Name = "btn_Make";
             this.btn_Make.Size = new System.Drawing.Size(549, 66);
             this.btn_Make.TabIndex = 10;
@@ -368,7 +369,7 @@
             // txt_Size
             // 
             this.txt_Size.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Size.Location = new System.Drawing.Point(99, 306);
+            this.txt_Size.Location = new System.Drawing.Point(99, 301);
             this.txt_Size.Name = "txt_Size";
             this.txt_Size.Size = new System.Drawing.Size(548, 22);
             this.txt_Size.TabIndex = 9;
@@ -377,7 +378,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(118, 286);
+            this.label5.Location = new System.Drawing.Point(118, 281);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 17);
             this.label5.TabIndex = 8;
@@ -386,7 +387,7 @@
             // txt_Species
             // 
             this.txt_Species.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Species.Location = new System.Drawing.Point(99, 249);
+            this.txt_Species.Location = new System.Drawing.Point(99, 244);
             this.txt_Species.Name = "txt_Species";
             this.txt_Species.Size = new System.Drawing.Size(548, 22);
             this.txt_Species.TabIndex = 7;
@@ -395,7 +396,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(118, 229);
+            this.label4.Location = new System.Drawing.Point(118, 224);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 17);
             this.label4.TabIndex = 6;
@@ -404,7 +405,7 @@
             // txt_LifeSpan
             // 
             this.txt_LifeSpan.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_LifeSpan.Location = new System.Drawing.Point(99, 194);
+            this.txt_LifeSpan.Location = new System.Drawing.Point(99, 189);
             this.txt_LifeSpan.Name = "txt_LifeSpan";
             this.txt_LifeSpan.Size = new System.Drawing.Size(548, 22);
             this.txt_LifeSpan.TabIndex = 5;
@@ -413,7 +414,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(118, 174);
+            this.label3.Location = new System.Drawing.Point(118, 169);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 17);
             this.label3.TabIndex = 4;
@@ -422,7 +423,7 @@
             // txt_Countries
             // 
             this.txt_Countries.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Countries.Location = new System.Drawing.Point(99, 139);
+            this.txt_Countries.Location = new System.Drawing.Point(99, 134);
             this.txt_Countries.Name = "txt_Countries";
             this.txt_Countries.Size = new System.Drawing.Size(548, 22);
             this.txt_Countries.TabIndex = 3;
@@ -431,7 +432,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(118, 119);
+            this.label2.Location = new System.Drawing.Point(118, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 17);
             this.label2.TabIndex = 2;
@@ -440,7 +441,7 @@
             // txt_Food
             // 
             this.txt_Food.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Food.Location = new System.Drawing.Point(99, 86);
+            this.txt_Food.Location = new System.Drawing.Point(99, 81);
             this.txt_Food.Name = "txt_Food";
             this.txt_Food.Size = new System.Drawing.Size(548, 22);
             this.txt_Food.TabIndex = 1;
@@ -449,7 +450,7 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(118, 66);
+            this.label1.Location = new System.Drawing.Point(118, 61);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 17);
             this.label1.TabIndex = 0;
