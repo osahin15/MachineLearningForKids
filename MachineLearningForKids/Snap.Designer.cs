@@ -167,6 +167,7 @@
             this.pctTest.Location = new System.Drawing.Point(773, 203);
             this.pctTest.Name = "pctTest";
             this.pctTest.Size = new System.Drawing.Size(355, 286);
+            this.pctTest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctTest.TabIndex = 8;
             this.pctTest.TabStop = false;
             // 

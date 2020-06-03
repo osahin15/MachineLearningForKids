@@ -56,43 +56,7 @@ namespace MachineLearningForKids
         }
 
 
-        public bool getLampOn(string text, string[] arr, bool retVal)
-        {
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (text.Contains(arr[i]))
-                {
-                    return retVal = true;
-                }
-            }
-            return retVal = false;
-        }
-
-        public bool getLampOff(string text, string[] arr, bool retVal)
-        {
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (text.Contains(arr[i]))
-                {
-                    return retVal = true;
-                }
-            }
-            return retVal = false;
-        }
-
-        public bool getFanOn(string text, string[] arr, bool retVal)
-        {
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (text.Contains(arr[i]))
-                {
-                    return retVal = true;
-                }
-            }
-            return retVal = false;
-        }
-
-        public bool getFanOff(string text, string[] arr, bool retVal)
+        public bool FindWord(string text, string[] arr, bool retVal)
         {
             for (int i = 0; i < arr.Length; i++)
             {
